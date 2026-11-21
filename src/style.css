@@ -1,0 +1,93 @@
+:root {
+  --ink: #152941;
+  --navy: #153B66;
+  --muted: #50647D;
+  --rule: #dce5ef;
+  --paper: #fff;
+  --orange: #E3742C;
+}
+html, body, [data-testid="stAppViewContainer"], [data-testid="stSidebarContent"], button, input {
+  font-family: "Segoe UI", "Noto Sans", Arial, sans-serif;
+}
+[data-testid="stHeader"] {background: transparent;}
+[data-testid="stMainMenu"], [data-testid="stToolbarActions"], [data-testid="stAppDeployButton"] {visibility: hidden;}
+[data-testid="stMainBlockContainer"] {padding: 2.45rem clamp(1.3rem, 3.1vw, 3.2rem) 2.7rem; max-width: 1640px;}
+[data-testid="stSidebar"] {background: #112842; border-right: 0;}
+[data-testid="stSidebarContent"] {color: #e7eff9;}
+[data-testid="stSidebar"] [data-testid="stSidebarUserContent"] {padding: 1.35rem .5rem 1.15rem;}
+.side-brand {padding: 0 .47rem 1.15rem; border-bottom: 1px solid #38536e;}
+.side-brand strong {display: block; font-size: 1.12rem; color: white; letter-spacing: -.02em;}
+.side-brand span {display:block; color:#b6cbe2; font-size:.78rem; margin-top:.35rem;}
+.side-info {color:#a9c1db; padding:.65rem .47rem 0; font-size:.76rem; line-height:1.65;}
+[data-testid="stSidebar"] [data-testid="stPageLink"] a {
+  color: #d9e7f6; min-height: 2.85rem; padding: .57rem .7rem; border-radius: .6rem;
+}
+[data-testid="stSidebar"] [data-testid="stPageLink"] a p,
+[data-testid="stSidebar"] [data-testid="stPageLink"] [data-testid="stIconMaterial"] {
+  color:#d9e7f6; font-size:.9rem; font-weight:500;
+}
+[data-testid="stSidebar"] [data-testid="stPageLink"] a:hover {background:#233f5d; color:white;}
+[data-testid="stSidebar"] [data-testid="stPageLink"] a[aria-current="page"] {
+  background:#254764; color:white; box-shadow:inset 3px 0 #9fc3e3;
+}
+[data-testid="stSidebar"] [data-testid="stSidebarCollapseButton"] button {color:#d9e7f6;}
+.hero {
+  display:flex; justify-content:space-between; align-items:flex-start; gap:1rem; flex-wrap:wrap;
+  background:linear-gradient(115deg,#f6faff 0%,#eef5fd 65%,#e4f0fc 100%);
+  border:1px solid #d8e5f3; border-radius:16px; padding:1.58rem 1.65rem 1.65rem;
+}
+.hero h1 {color:#142f4e; font-size:clamp(1.68rem,2.8vw,2.54rem); line-height:1.19;
+  letter-spacing:-.035em; font-family:inherit; margin:0; padding:0; font-weight:800;}
+.hero p {color:#435b74; font-size:.91rem; line-height:1.6; margin:.5rem 0 0;}
+.hero.result-title {padding:1.16rem 1.4rem 1.18rem;}
+.hero.result-title h1 {font-size:clamp(1.34rem,2.2vw,1.94rem);}
+.pill {display:inline-flex; gap:.4rem; align-items:center; white-space:nowrap; background:#fff;
+  border:1px solid #c9dbed; border-radius:100px; padding:.42rem .67rem; color:#24466a; font-size:.76rem;font-weight:700;}
+.pill::before {content:""; width:7px;height:7px;border-radius:100%;background:#237d78;}
+.section-title {color:#183658;font-weight:800; font-size:1rem; margin:0; line-height:1.35;}
+.section-note {color:var(--muted); font-size:.82rem; margin:.25rem 0 0;}
+.form-legend {margin:0 0 .05rem;}
+.form-legend small {display:block;color:var(--muted);font-size:.77rem;margin-top:.21rem;}
+[class*="st-key-panel_"] {border-radius:.85rem; border-color:var(--rule); background:var(--paper); gap:.69rem;}
+[data-testid="stWidgetLabel"] p {font-size:.85rem; font-weight:600;}
+[data-testid="stCheckbox"] label p {font-size:.87rem;}
+[data-testid="stNumberInput"] input, [data-testid="stSelectbox"] [data-baseweb="select"] {font-size:.91rem;}
+[data-testid="stNumberInput"] [data-baseweb="base-input"], [data-testid="stSelectbox"] [data-baseweb="select"] > div {
+  background:#f7faff;
+}
+[data-testid="stButton"] button {min-height:2.62rem;border-radius:.55rem;font-weight:700;}
+[data-testid="stButton"] button p {font-weight:700;}
+[data-testid="stMetric"] {border:1px solid var(--rule); border-radius:.75rem;background:white;padding:.72rem .87rem;}
+[data-testid="stMetric"] [data-testid="stMetricValue"] {color:#173b62;font-weight:750;}
+div[data-testid="stHorizontalBlock"] {gap:.82rem;}
+.metric-card {min-height:6.72rem; height:100%; background:white;border:1px solid var(--rule);border-radius:.83rem;padding:.83rem .91rem;}
+.metric-card .caption {color:#4b617c;font-size:.78rem;font-weight:700;}
+.metric-card .value {color:#173b62;font-size:clamp(1.05rem,1.92vw,1.66rem);font-weight:800;letter-spacing:-.025em;line-height:1.2;margin-top:.4rem;}
+.metric-card .unit {font-size:.65em;color:#536b87;white-space:nowrap;font-weight:600;}
+.metric-card.lead {background:#fff7ee;border-color:#ecc7ab;}
+.metric-card.lead .value, .metric-card.lead .caption {color:#984414;}
+.metric-card.confidence .value {color:#12635c;}
+.metric-card .sub {font-size:.69rem; color:var(--muted); margin-top:.24rem;}
+.range-head {display:flex;justify-content:space-between;gap:1rem;align-items:center;}
+.range-head small {color:var(--muted); font-size:.78rem;}
+.formula {background:#edf5fd;color:#163654;border-left:4px solid #36638e;border-radius:0 .6rem .6rem 0;padding:.7rem .9rem;}
+.formula p {font-size:.82rem;line-height:1.55;margin:.21rem 0 0;color:#3e5a75;}
+.formula strong {font-size:1.06rem;}
+.table-wrap {width:100%;overflow:auto;border:1px solid var(--rule);border-radius:.65rem;}
+.valuation-table {border-collapse:collapse;width:100%;font-size:.79rem;color:#243c57;background:white;}
+.valuation-table th {font-weight:700;color:#264969;background:#edf4fb;}
+.valuation-table th,.valuation-table td {padding:.48rem .55rem;text-align:left;vertical-align:top;border-bottom:1px solid #e6edf4;}
+.valuation-table tbody tr:last-child td {border-bottom:0;}
+.valuation-table tbody tr:nth-child(even) {background:#f8fbff;}
+.valuation-table td:first-child {font-weight:650;color:#204e78;white-space:nowrap;}
+.valuation-table td:nth-child(n+3) {font-variant-numeric:tabular-nums;}
+[data-testid="stTabs"] [role="tab"] p {font-weight:700;}
+[data-testid="stTabs"] [role="tablist"] {gap:1.1rem;}
+[data-testid="stAlert"] {border-radius:.72rem;}
+.risk-note {padding:.65rem .8rem;border:1px solid #ecc5a5;border-radius:.68rem;background:#fff5e9;color:#71370f;font-size:.83rem;line-height:1.55;}
+.risk-note p {margin:0;}
+.risk-note p + p {margin-top:.22rem;}
+@media (max-width: 800px) {
+  [data-testid="stMainBlockContainer"] {padding-top:3.25rem;}
+  .hero,.hero.result-title {padding:1rem 1.05rem;}
+}

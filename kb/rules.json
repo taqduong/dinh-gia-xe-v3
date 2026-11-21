@@ -1,0 +1,464 @@
+[
+  {
+    "id": "TUOI-01",
+    "conditions": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 0
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 1
+      }
+    ],
+    "action": {
+      "type": "adjust_percent",
+      "value": -0.1
+    },
+    "priority": 900,
+    "explanation": "Xe 0–1 năm tuổi, áp dụng mức khấu hao theo nhóm tuổi."
+  },
+  {
+    "id": "TUOI-02",
+    "conditions": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 2
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 3
+      }
+    ],
+    "action": {
+      "type": "adjust_percent",
+      "value": -0.2
+    },
+    "priority": 900,
+    "explanation": "Xe 2–3 năm tuổi, áp dụng mức khấu hao theo nhóm tuổi."
+  },
+  {
+    "id": "TUOI-03",
+    "conditions": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 4
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 5
+      }
+    ],
+    "action": {
+      "type": "adjust_percent",
+      "value": -0.29
+    },
+    "priority": 900,
+    "explanation": "Xe 4–5 năm tuổi, áp dụng mức khấu hao theo nhóm tuổi."
+  },
+  {
+    "id": "TUOI-04",
+    "conditions": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 6
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 8
+      }
+    ],
+    "action": {
+      "type": "adjust_percent",
+      "value": -0.35
+    },
+    "priority": 900,
+    "explanation": "Xe 6–8 năm tuổi, áp dụng mức khấu hao theo nhóm tuổi."
+  },
+  {
+    "id": "TUOI-05",
+    "conditions": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 9
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 11
+      }
+    ],
+    "action": {
+      "type": "adjust_percent",
+      "value": -0.47
+    },
+    "priority": 900,
+    "explanation": "Xe 9–11 năm tuổi, áp dụng mức khấu hao theo nhóm tuổi."
+  },
+  {
+    "id": "TUOI-06",
+    "conditions": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 12
+      },
+      {
+        "field": "age",
+        "op": "<=",
+        "value": 14
+      }
+    ],
+    "action": {
+      "type": "adjust_percent",
+      "value": -0.56
+    },
+    "priority": 900,
+    "explanation": "Xe 12–14 năm tuổi, áp dụng mức khấu hao theo nhóm tuổi."
+  },
+  {
+    "id": "TUOI-07",
+    "conditions": [
+      {
+        "field": "age",
+        "op": ">=",
+        "value": 15
+      }
+    ],
+    "action": {
+      "type": "adjust_percent",
+      "value": -0.64
+    },
+    "priority": 900,
+    "explanation": "Xe từ 15 năm tuổi, áp dụng mức khấu hao theo nhóm tuổi."
+  },
+  {
+    "id": "KM-01",
+    "conditions": [
+      {
+        "field": "mileage",
+        "op": ">=",
+        "value": 0
+      },
+      {
+        "field": "mileage",
+        "op": "<=",
+        "value": 30000
+      }
+    ],
+    "action": {
+      "type": "adjust_percent",
+      "value": 0.02
+    },
+    "priority": 800,
+    "explanation": "Số km thấp, cộng nhẹ cho mức sử dụng."
+  },
+  {
+    "id": "KM-02",
+    "conditions": [
+      {
+        "field": "mileage",
+        "op": ">=",
+        "value": 30001
+      },
+      {
+        "field": "mileage",
+        "op": "<=",
+        "value": 60000
+      }
+    ],
+    "action": {
+      "type": "adjust_percent",
+      "value": 0
+    },
+    "priority": 800,
+    "explanation": "Số km trong nhóm sử dụng nhẹ, giữ nguyên giá."
+  },
+  {
+    "id": "KM-03",
+    "conditions": [
+      {
+        "field": "mileage",
+        "op": ">=",
+        "value": 60001
+      },
+      {
+        "field": "mileage",
+        "op": "<=",
+        "value": 100000
+      }
+    ],
+    "action": {
+      "type": "adjust_percent",
+      "value": -0.06
+    },
+    "priority": 800,
+    "explanation": "Số km thuộc nhóm 60.001–100.000, giảm giá do hao mòn."
+  },
+  {
+    "id": "KM-04",
+    "conditions": [
+      {
+        "field": "mileage",
+        "op": ">=",
+        "value": 100001
+      },
+      {
+        "field": "mileage",
+        "op": "<=",
+        "value": 160000
+      }
+    ],
+    "action": {
+      "type": "adjust_percent",
+      "value": -0.1
+    },
+    "priority": 800,
+    "explanation": "Số km trên 100.000, tăng mức khấu trừ hao mòn."
+  },
+  {
+    "id": "KM-05",
+    "conditions": [
+      {
+        "field": "mileage",
+        "op": ">=",
+        "value": 160001
+      }
+    ],
+    "action": {
+      "type": "adjust_percent",
+      "value": -0.18
+    },
+    "priority": 800,
+    "explanation": "Số km trên 160.000, áp dụng khấu trừ cao nhất cho mức sử dụng."
+  },
+  {
+    "id": "TT-01",
+    "conditions": [
+      {
+        "field": "condition",
+        "op": "==",
+        "value": "Tốt"
+      }
+    ],
+    "action": {
+      "type": "adjust_percent",
+      "value": 0.03
+    },
+    "priority": 700,
+    "explanation": "Tình trạng tốt, cộng cho chất lượng hiện tại."
+  },
+  {
+    "id": "TT-02",
+    "conditions": [
+      {
+        "field": "condition",
+        "op": "==",
+        "value": "Khá"
+      }
+    ],
+    "action": {
+      "type": "adjust_percent",
+      "value": -0.02
+    },
+    "priority": 700,
+    "explanation": "Tình trạng khá, giảm nhẹ để phản ánh hao mòn."
+  },
+  {
+    "id": "TT-03",
+    "conditions": [
+      {
+        "field": "condition",
+        "op": "==",
+        "value": "Trung bình"
+      }
+    ],
+    "action": {
+      "type": "adjust_percent",
+      "value": -0.08
+    },
+    "priority": 700,
+    "explanation": "Tình trạng trung bình, dự phòng chi phí phục hồi."
+  },
+  {
+    "id": "TT-04",
+    "conditions": [
+      {
+        "field": "condition",
+        "op": "==",
+        "value": "Kém"
+      }
+    ],
+    "action": {
+      "type": "adjust_percent",
+      "value": -0.16
+    },
+    "priority": 700,
+    "explanation": "Tình trạng kém, dự phòng chi phí sửa chữa cao hơn."
+  },
+  {
+    "id": "BD-01",
+    "conditions": [
+      {
+        "field": "dealer_service",
+        "op": "==",
+        "value": true
+      }
+    ],
+    "action": {
+      "type": "adjust_percent",
+      "value": 0.04
+    },
+    "priority": 600,
+    "explanation": "Có lịch sử bảo dưỡng hãng, cộng giá theo hồ sơ khai báo."
+  },
+  {
+    "id": "BD-02",
+    "conditions": [
+      {
+        "field": "dealer_service",
+        "op": "==",
+        "value": false
+      }
+    ],
+    "action": {
+      "type": "adjust_percent",
+      "value": -0.02
+    },
+    "priority": 600,
+    "explanation": "Thiếu xác nhận bảo dưỡng hãng, giảm nhẹ giá."
+  },
+  {
+    "id": "KV-01",
+    "conditions": [
+      {
+        "field": "region",
+        "op": "==",
+        "value": "Hà Nội"
+      }
+    ],
+    "action": {
+      "type": "adjust_percent",
+      "value": 0.02
+    },
+    "priority": 500,
+    "explanation": "Áp dụng chênh lệch vùng giả định cho Hà Nội."
+  },
+  {
+    "id": "KV-02",
+    "conditions": [
+      {
+        "field": "region",
+        "op": "==",
+        "value": "TP. Hồ Chí Minh"
+      }
+    ],
+    "action": {
+      "type": "adjust_percent",
+      "value": 0.03
+    },
+    "priority": 500,
+    "explanation": "Áp dụng chênh lệch vùng giả định cho TP. Hồ Chí Minh."
+  },
+  {
+    "id": "KV-03",
+    "conditions": [
+      {
+        "field": "region",
+        "op": "in",
+        "value": [
+          "Đà Nẵng",
+          "Tỉnh miền Bắc",
+          "Tỉnh miền Nam"
+        ]
+      }
+    ],
+    "action": {
+      "type": "adjust_percent",
+      "value": -0.01
+    },
+    "priority": 500,
+    "explanation": "Áp dụng chênh lệch vùng giả định cho các khu vực còn lại."
+  },
+  {
+    "id": "RR-01",
+    "conditions": [
+      {
+        "field": "commercial",
+        "op": "==",
+        "value": true
+      }
+    ],
+    "action": {
+      "type": "apply_risk",
+      "value": -0.11,
+      "warning": "Xe từng chạy dịch vụ. Cần đối chiếu số km và hồ sơ vận hành."
+    },
+    "priority": 400,
+    "explanation": "Trừ giá cho lịch sử vận hành dịch vụ."
+  },
+  {
+    "id": "RR-02",
+    "conditions": [
+      {
+        "field": "flood",
+        "op": "==",
+        "value": true
+      }
+    ],
+    "action": {
+      "type": "apply_risk",
+      "value": -0.29,
+      "warning": "Xe từng ngập nước. Cần kiểm tra hệ thống điện, nội thất và dấu gỉ."
+    },
+    "priority": 390,
+    "explanation": "Trừ giá cho rủi ro hư hại do ngập nước."
+  },
+  {
+    "id": "RR-03",
+    "conditions": [
+      {
+        "field": "major_accident",
+        "op": "==",
+        "value": true
+      }
+    ],
+    "action": {
+      "type": "apply_risk",
+      "value": -0.22,
+      "warning": "Xe từng tai nạn nặng. Cần kiểm tra khung gầm và hồ sơ sửa chữa."
+    },
+    "priority": 380,
+    "explanation": "Trừ giá cho rủi ro kết cấu sau tai nạn nặng."
+  },
+  {
+    "id": "RR-04",
+    "conditions": [
+      {
+        "field": "risk_count",
+        "op": ">=",
+        "value": 2
+      },
+      {
+        "field": "risk_multiplier",
+        "op": "<",
+        "value": 0.58
+      }
+    ],
+    "action": {
+      "type": "floor_risk_multiplier",
+      "value": 0.58
+    },
+    "priority": 300,
+    "explanation": "Giới hạn khấu trừ cộng dồn ở 42% giá ngay trước nhóm luật rủi ro."
+  }
+]

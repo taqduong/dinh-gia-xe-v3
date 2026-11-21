@@ -1,0 +1,59 @@
+{
+  "reference_year": 2026,
+  "min_year": 2000,
+  "max_mileage": 600000,
+  "conditions": [
+    "Kém",
+    "Trung bình",
+    "Khá",
+    "Tốt"
+  ],
+  "region_offsets": {
+    "Hà Nội": 0.02,
+    "TP. Hồ Chí Minh": 0.03,
+    "Đà Nẵng": -0.005,
+    "Tỉnh miền Bắc": -0.012,
+    "Tỉnh miền Nam": -0.015
+  },
+  "cbr": {
+    "threshold": 0.72,
+    "limit": 5,
+    "minimum": 2,
+    "year_window": 4,
+    "year_scale": 5,
+    "mileage_scale": 120000,
+    "other_trim_similarity": 0.4,
+    "weights": {
+      "trim": 0.22,
+      "year": 0.2,
+      "mileage": 0.18,
+      "region": 0.08,
+      "condition": 0.14,
+      "dealer_service": 0.08,
+      "commercial": 0.1
+    },
+    "age_adjustment_per_year": 0.045,
+    "mileage_adjustment_per_20000": 0.035,
+    "condition_adjustment_per_level": 0.055,
+    "dealer_adjustment": 0.035,
+    "commercial_adjustment": 0.085,
+    "min_ratio": 0.6,
+    "max_ratio": 1.55
+  },
+  "hybrid": {
+    "base_cbr_weight": 0.25,
+    "quality_cbr_weight": 0.5,
+    "severe_weight_factor": 0.8,
+    "base_interval": 0.1,
+    "sparse_interval": 0.035,
+    "rules_only_interval": 0.18,
+    "severe_interval": 0.04,
+    "commercial_interval": 0.02,
+    "disagreement_factor": 0.35,
+    "spread_factor": 0.3,
+    "high_similarity": 0.85,
+    "high_disagreement": 0.12,
+    "medium_similarity": 0.76,
+    "medium_disagreement": 0.25
+  }
+}

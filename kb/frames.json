@@ -1,0 +1,250 @@
+{
+  "Toyota": {
+    "Vios": [
+      {
+        "id": "vios-e",
+        "name": "1.5E CVT",
+        "segment": "Sedan hạng B",
+        "new_price": 500
+      },
+      {
+        "id": "vios-g",
+        "name": "1.5G CVT",
+        "segment": "Sedan hạng B",
+        "new_price": 548
+      }
+    ],
+    "Corolla Cross": [
+      {
+        "id": "cross-v",
+        "name": "1.8V",
+        "segment": "SUV đô thị",
+        "new_price": 820
+      },
+      {
+        "id": "cross-hev",
+        "name": "1.8HEV",
+        "segment": "SUV đô thị",
+        "new_price": 905
+      }
+    ],
+    "Fortuner": [
+      {
+        "id": "fortuner-24",
+        "name": "2.4 AT 4x2",
+        "segment": "SUV 7 chỗ",
+        "new_price": 1055
+      },
+      {
+        "id": "fortuner-28",
+        "name": "2.8 AT 4x4",
+        "segment": "SUV 7 chỗ",
+        "new_price": 1395
+      }
+    ]
+  },
+  "Hyundai": {
+    "Accent": [
+      {
+        "id": "accent-at",
+        "name": "1.5 AT",
+        "segment": "Sedan hạng B",
+        "new_price": 489
+      },
+      {
+        "id": "accent-top",
+        "name": "1.5 AT Đặc biệt",
+        "segment": "Sedan hạng B",
+        "new_price": 569
+      }
+    ],
+    "Grand i10": [
+      {
+        "id": "i10-at",
+        "name": "1.2 AT",
+        "segment": "Hatchback hạng A",
+        "new_price": 415
+      },
+      {
+        "id": "i10-base",
+        "name": "1.2 MT Tiêu chuẩn",
+        "segment": "Hatchback hạng A",
+        "new_price": 365
+      }
+    ],
+    "Tucson": [
+      {
+        "id": "tucson-20",
+        "name": "2.0 Xăng",
+        "segment": "SUV đô thị",
+        "new_price": 819
+      },
+      {
+        "id": "tucson-turbo",
+        "name": "1.6 Turbo",
+        "segment": "SUV đô thị",
+        "new_price": 975
+      }
+    ]
+  },
+  "Kia": {
+    "Morning": [
+      {
+        "id": "morning-at",
+        "name": "1.25 AT",
+        "segment": "Hatchback hạng A",
+        "new_price": 399
+      },
+      {
+        "id": "morning-x",
+        "name": "1.25 X-Line",
+        "segment": "Hatchback hạng A",
+        "new_price": 439
+      }
+    ],
+    "Seltos": [
+      {
+        "id": "seltos-lux",
+        "name": "1.5 Luxury",
+        "segment": "SUV đô thị",
+        "new_price": 680
+      },
+      {
+        "id": "seltos-pre",
+        "name": "1.5 Premium",
+        "segment": "SUV đô thị",
+        "new_price": 760
+      }
+    ],
+    "K3": [
+      {
+        "id": "k3-lux",
+        "name": "1.6 Luxury",
+        "segment": "Sedan hạng C",
+        "new_price": 620
+      },
+      {
+        "id": "k3-turbo",
+        "name": "1.6 Turbo GT",
+        "segment": "Sedan hạng C",
+        "new_price": 739
+      }
+    ]
+  },
+  "Honda": {
+    "City": [
+      {
+        "id": "city-l",
+        "name": "1.5 L",
+        "segment": "Sedan hạng B",
+        "new_price": 559
+      },
+      {
+        "id": "city-rs",
+        "name": "1.5 RS",
+        "segment": "Sedan hạng B",
+        "new_price": 609
+      }
+    ],
+    "Civic": [
+      {
+        "id": "civic-g",
+        "name": "1.5 G",
+        "segment": "Sedan hạng C",
+        "new_price": 789
+      },
+      {
+        "id": "civic-rs",
+        "name": "1.5 RS",
+        "segment": "Sedan hạng C",
+        "new_price": 899
+      }
+    ],
+    "CR-V": [
+      {
+        "id": "crv-g",
+        "name": "1.5 G",
+        "segment": "SUV 7 chỗ",
+        "new_price": 1030
+      },
+      {
+        "id": "crv-l",
+        "name": "1.5 L AWD",
+        "segment": "SUV 7 chỗ",
+        "new_price": 1250
+      }
+    ]
+  },
+  "Mazda": {
+    "Mazda3": [
+      {
+        "id": "m3-lux",
+        "name": "1.5 Luxury",
+        "segment": "Sedan hạng C",
+        "new_price": 645
+      },
+      {
+        "id": "m3-pre",
+        "name": "1.5 Premium",
+        "segment": "Sedan hạng C",
+        "new_price": 710
+      }
+    ],
+    "CX-5": [
+      {
+        "id": "cx5-deluxe",
+        "name": "2.0 Deluxe",
+        "segment": "SUV đô thị",
+        "new_price": 759
+      },
+      {
+        "id": "cx5-pre",
+        "name": "2.0 Premium",
+        "segment": "SUV đô thị",
+        "new_price": 819
+      }
+    ]
+  },
+  "Mitsubishi": {
+    "Xpander": [
+      {
+        "id": "xpander-at",
+        "name": "1.5 AT",
+        "segment": "MPV",
+        "new_price": 598
+      },
+      {
+        "id": "xpander-pre",
+        "name": "1.5 AT Premium",
+        "segment": "MPV",
+        "new_price": 658
+      }
+    ]
+  },
+  "Ford": {
+    "Ranger": [
+      {
+        "id": "ranger-xls",
+        "name": "2.0 XLS 4x2 AT",
+        "segment": "Bán tải",
+        "new_price": 725
+      },
+      {
+        "id": "ranger-wt",
+        "name": "2.0 Wildtrak 4x4",
+        "segment": "Bán tải",
+        "new_price": 979
+      }
+    ]
+  },
+  "Lexus": {
+    "RX": [
+      {
+        "id": "rx-350",
+        "name": "350 Luxury",
+        "segment": "SUV hạng sang",
+        "new_price": 3430
+      }
+    ]
+  }
+}

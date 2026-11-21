@@ -1,0 +1,126 @@
+{
+  "seed": 4126,
+  "reference_year": 2026,
+  "train_n": 2400,
+  "test_n": 600,
+  "common_n": 565,
+  "cbr_missing": 35,
+  "metrics": [
+    {
+      "method": "rules",
+      "label": "Chỉ luật",
+      "scope": "common_cbr",
+      "n": 565,
+      "test_n": 600,
+      "cbr_missing": 35,
+      "mae_million": 37.335604977728146,
+      "mape_percent": 8.646070185636786,
+      "r2": 0.9318822049825626,
+      "total_ms": 21.555616,
+      "ms_per_vehicle": 0.035926026666666666
+    },
+    {
+      "method": "cbr",
+      "label": "Chỉ CBR",
+      "scope": "common_cbr",
+      "n": 565,
+      "test_n": 600,
+      "cbr_missing": 35,
+      "mae_million": 25.468945402576423,
+      "mape_percent": 5.919631170142552,
+      "r2": 0.9651559565730778,
+      "total_ms": 99.052914,
+      "ms_per_vehicle": 0.16508819
+    },
+    {
+      "method": "random_forest",
+      "label": "Random Forest",
+      "scope": "common_cbr",
+      "n": 565,
+      "test_n": 600,
+      "cbr_missing": 35,
+      "mae_million": 27.253170826102316,
+      "mape_percent": 6.254630020786475,
+      "r2": 0.960367118197932,
+      "total_ms": 17.766605,
+      "ms_per_vehicle": 0.02961100833333333
+    },
+    {
+      "method": "hybrid",
+      "label": "Hệ lai",
+      "scope": "common_cbr",
+      "n": 565,
+      "test_n": 600,
+      "cbr_missing": 35,
+      "mae_million": 26.40828133183369,
+      "mape_percent": 6.071952729335863,
+      "r2": 0.9636033773406916,
+      "total_ms": 122.199761,
+      "ms_per_vehicle": 0.20366626833333332
+    },
+    {
+      "method": "rules",
+      "label": "Chỉ luật",
+      "scope": "full_test",
+      "n": 600,
+      "test_n": 600,
+      "cbr_missing": 35,
+      "mae_million": 36.933206438137475,
+      "mape_percent": 8.673872569645507,
+      "r2": 0.9326948193814965,
+      "total_ms": 21.555616,
+      "ms_per_vehicle": 0.035926026666666666
+    },
+    {
+      "method": "random_forest",
+      "label": "Random Forest",
+      "scope": "full_test",
+      "n": 600,
+      "test_n": 600,
+      "cbr_missing": 35,
+      "mae_million": 29.62684733219644,
+      "mape_percent": 7.130242642513421,
+      "r2": 0.9509135016437082,
+      "total_ms": 17.766605,
+      "ms_per_vehicle": 0.02961100833333333
+    },
+    {
+      "method": "hybrid",
+      "label": "Hệ lai",
+      "scope": "full_test",
+      "n": 600,
+      "test_n": 600,
+      "cbr_missing": 35,
+      "mae_million": 26.643310004920203,
+      "mape_percent": 6.249911964962136,
+      "r2": 0.9628165631699173,
+      "total_ms": 122.199761,
+      "ms_per_vehicle": 0.20366626833333332
+    }
+  ],
+  "interval": {
+    "n": 600,
+    "covered_n": 548,
+    "coverage_percent": 91.33333333333333,
+    "mean_width_million": 124.6119135694987
+  },
+  "timing": {
+    "rf_fit_ms": 1648.207056,
+    "timed_queries_per_method": 600,
+    "unit": "ms",
+    "scope": "Đo trên toàn bộ test. RF dự đoán theo lô và có biến đổi đặc trưng. Thời gian hệ lai gồm suy diễn, truy hồi và tổng hợp."
+  },
+  "rf_params": {
+    "random_state": 4126,
+    "n_estimators": 180,
+    "min_samples_leaf": 3,
+    "max_features": 0.85,
+    "n_jobs": 1
+  },
+  "versions": {
+    "python": "3.12.14",
+    "scikit_learn": "1.8.0",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3"
+  }
+}

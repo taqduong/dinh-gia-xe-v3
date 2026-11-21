@@ -1,0 +1,96 @@
+{
+  "browser": "Chromium 156.0.8078.79",
+  "viewport": [
+    1440,
+    1160
+  ],
+  "passed": 11,
+  "checks": [
+    {
+      "case": "Mở kết quả khi chưa tính",
+      "observed": "Hiện hướng dẫn và quay lại form."
+    },
+    {
+      "case": "Danh sách hãng, dòng, phiên bản",
+      "observed": "Honda cập nhật City. Civic cập nhật 1.5 G và cho chọn 1.5 RS."
+    },
+    {
+      "case": "Năm 2027 và số km âm",
+      "observed": "Hiện cả hai lỗi miền giá trị bằng tiếng Việt."
+    },
+    {
+      "case": "Kết quả Vios, công thức, khoảng và truy hồi",
+      "observed": "Giá 358,3 triệu đồng, ba nhãn khoảng và giá hiệu chỉnh 5 xe khớp JSON."
+    },
+    {
+      "case": "Bộ lọc phân tích dữ liệu",
+      "observed": "Toyota thay đổi số mẫu. Ghép Hatchback hạng A hiện trạng thái rỗng."
+    },
+    {
+      "case": "Quản trị tri thức",
+      "observed": "Mở đủ bốn tab. Dữ liệu hiện tại đạt kiểm tra nhất quán."
+    },
+    {
+      "case": "Kết quả và đầu vào qua các trang",
+      "observed": "Giữ kết quả và báo khi sửa km. Nạp lại mẫu khôi phục 95.000 km."
+    },
+    {
+      "case": "Ngập nước",
+      "observed": "Có cảnh báo lịch sử, khoảng giá và tin cậy thấp."
+    },
+    {
+      "case": "Không có CBR",
+      "observed": "Giá đề xuất bằng giá theo luật, hiện lý do 0 xe đạt ngưỡng."
+    },
+    {
+      "case": "Dịch vụ và bảo dưỡng hãng",
+      "observed": "Ca dịch vụ có cảnh báo. Ca bảo dưỡng kích hoạt BD-01."
+    },
+    {
+      "case": "Ba rủi ro cùng lúc",
+      "observed": "Hiện ba cảnh báo, vết suy diễn có RR-04 chặn hệ số rủi ro."
+    }
+  ],
+  "screenshots": [
+    {
+      "file": "01_form_nhap_xe.png",
+      "width": 1440,
+      "height": 710
+    },
+    {
+      "file": "02_ket_qua_va_khoang_gia.png",
+      "width": 1440,
+      "height": 458
+    },
+    {
+      "file": "03_giai_thich_gia.png",
+      "width": 1440,
+      "height": 893
+    },
+    {
+      "file": "04_vet_suy_dien.png",
+      "width": 1440,
+      "height": 1128
+    },
+    {
+      "file": "05_xe_tuong_tu.png",
+      "width": 1440,
+      "height": 918
+    },
+    {
+      "file": "06_phan_tich_du_lieu.png",
+      "width": 1440,
+      "height": 1087
+    },
+    {
+      "file": "07_quan_tri_tri_thuc.png",
+      "width": 1440,
+      "height": 934
+    },
+    {
+      "file": "08_canh_bao_ngap_nuoc.png",
+      "width": 1440,
+      "height": 985
+    }
+  ]
+}
