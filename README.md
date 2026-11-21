@@ -8,10 +8,10 @@
 
 ## Chạy trên Windows với VS Code
 
-Cài Python 3.12, Git và VS Code. Clone nhánh bàn giao, mở thư mục dự án bằng VS Code và chọn **Terminal → New Terminal**. Chạy trong PowerShell.
+Cài Python 3.12, Git và VS Code. Clone nhánh `main`, mở thư mục dự án bằng VS Code và chọn **Terminal → New Terminal**. Chạy trong PowerShell.
 
 ~~~powershell
-git clone --branch codex/dinh-gia-xe-v3 https://github.com/taqduong/dinh-gia-xe-v3.git
+git clone --branch main https://github.com/taqduong/dinh-gia-xe-v3.git
 cd dinh-gia-xe-v3
 py -3.12 -m venv .venv
 .\.venv\Scripts\python.exe -m pip install -r requirements.txt
