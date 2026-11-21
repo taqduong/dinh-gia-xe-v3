@@ -1,0 +1,77 @@
+[
+  {
+    "id": "normal",
+    "label": "Xe bình thường",
+    "vehicle": {
+      "frame_id": "vios-g",
+      "year": 2019,
+      "mileage": 95000,
+      "region": "Hà Nội",
+      "condition": "Khá",
+      "dealer_service": false,
+      "commercial": false,
+      "flood": false,
+      "major_accident": false
+    }
+  },
+  {
+    "id": "dealer",
+    "label": "Xe bảo dưỡng hãng",
+    "vehicle": {
+      "frame_id": "vios-g",
+      "year": 2019,
+      "mileage": 95000,
+      "region": "Hà Nội",
+      "condition": "Khá",
+      "dealer_service": true,
+      "commercial": false,
+      "flood": false,
+      "major_accident": false
+    }
+  },
+  {
+    "id": "flood",
+    "label": "Xe ngập nước",
+    "vehicle": {
+      "frame_id": "vios-g",
+      "year": 2019,
+      "mileage": 95000,
+      "region": "Hà Nội",
+      "condition": "Trung bình",
+      "dealer_service": false,
+      "commercial": false,
+      "flood": true,
+      "major_accident": false
+    }
+  },
+  {
+    "id": "commercial",
+    "label": "Xe chạy dịch vụ",
+    "vehicle": {
+      "frame_id": "vios-g",
+      "year": 2019,
+      "mileage": 155000,
+      "region": "Hà Nội",
+      "condition": "Khá",
+      "dealer_service": false,
+      "commercial": true,
+      "flood": false,
+      "major_accident": false
+    }
+  },
+  {
+    "id": "sparse",
+    "label": "Xe thiếu tình huống tương tự",
+    "vehicle": {
+      "frame_id": "rx-350",
+      "year": 2021,
+      "mileage": 50000,
+      "region": "Hà Nội",
+      "condition": "Tốt",
+      "dealer_service": false,
+      "commercial": false,
+      "flood": false,
+      "major_accident": false
+    }
+  }
+]

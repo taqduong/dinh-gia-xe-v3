@@ -1,0 +1,53 @@
+{
+  "seed": 4126,
+  "reference_year": 2026,
+  "test_share": 0.2,
+  "steps": [
+    {
+      "step": "Chuẩn hóa khoảng trắng, số và cờ Có/Không",
+      "before": 3040,
+      "after": 3040,
+      "removed": 0
+    },
+    {
+      "step": "Lọc giá thiếu, không hữu hạn hoặc không dương",
+      "before": 3040,
+      "after": 3035,
+      "removed": 5
+    },
+    {
+      "step": "Lọc năm sản xuất sai miền",
+      "before": 3035,
+      "after": 3031,
+      "removed": 4
+    },
+    {
+      "step": "Lọc số km thiếu hoặc sai miền",
+      "before": 3031,
+      "after": 3027,
+      "removed": 4
+    },
+    {
+      "step": "Lọc mã khung, khu vực, tình trạng, mã và lịch sử không hợp lệ",
+      "before": 3027,
+      "after": 3024,
+      "removed": 3
+    },
+    {
+      "step": "Bỏ mã tình huống trùng",
+      "before": 3024,
+      "after": 3012,
+      "removed": 12
+    },
+    {
+      "step": "Bỏ bản ghi có đầu vào trùng",
+      "before": 3012,
+      "after": 3000,
+      "removed": 12
+    }
+  ],
+  "raw": 3040,
+  "clean": 3000,
+  "train": 2400,
+  "test": 600
+}

@@ -1,0 +1,1274 @@
+{
+  "normal": {
+    "label": "Xe bình thường",
+    "frame": {
+      "id": "vios-g",
+      "brand": "Toyota",
+      "model": "Vios",
+      "name": "1.5G CVT",
+      "segment": "Sedan hạng B",
+      "new_price": 548
+    },
+    "valuation": {
+      "vehicle": {
+        "frame_id": "vios-g",
+        "year": 2019,
+        "mileage": 95000,
+        "region": "Hà Nội",
+        "condition": "Khá",
+        "dealer_service": false,
+        "commercial": false,
+        "flood": false,
+        "major_accident": false
+      },
+      "inference": {
+        "reference_price": 548,
+        "price": 328.00018742399993,
+        "steps": [
+          {
+            "rule_id": "TUOI-04",
+            "priority": 900,
+            "explanation": "Xe 6–8 năm tuổi, áp dụng mức khấu hao theo nhóm tuổi.",
+            "before": 548,
+            "delta": -191.8,
+            "after": 356.2,
+            "warning": null
+          },
+          {
+            "rule_id": "KM-03",
+            "priority": 800,
+            "explanation": "Số km thuộc nhóm 60.001–100.000, giảm giá do hao mòn.",
+            "before": 356.2,
+            "delta": -21.372000000000014,
+            "after": 334.828,
+            "warning": null
+          },
+          {
+            "rule_id": "TT-02",
+            "priority": 700,
+            "explanation": "Tình trạng khá, giảm nhẹ để phản ánh hao mòn.",
+            "before": 334.828,
+            "delta": -6.696560000000034,
+            "after": 328.13143999999994,
+            "warning": null
+          },
+          {
+            "rule_id": "BD-02",
+            "priority": 600,
+            "explanation": "Thiếu xác nhận bảo dưỡng hãng, giảm nhẹ giá.",
+            "before": 328.13143999999994,
+            "delta": -6.562628800000027,
+            "after": 321.5688111999999,
+            "warning": null
+          },
+          {
+            "rule_id": "KV-01",
+            "priority": 500,
+            "explanation": "Áp dụng chênh lệch vùng giả định cho Hà Nội.",
+            "before": 321.5688111999999,
+            "delta": 6.431376224000019,
+            "after": 328.00018742399993,
+            "warning": null
+          }
+        ],
+        "risk_count": 0,
+        "risk_multiplier": 1.0
+      },
+      "cbr": {
+        "neighbors": [
+          {
+            "case": {
+              "case_id": "VN1143",
+              "vehicle": {
+                "frame_id": "vios-g",
+                "year": 2019,
+                "mileage": 65732,
+                "region": "Hà Nội",
+                "condition": "Khá",
+                "dealer_service": false,
+                "commercial": false,
+                "flood": false,
+                "major_accident": false
+              },
+              "price": 405.08
+            },
+            "similarity": 0.956098,
+            "components": {
+              "trim": 1.0,
+              "year": 1.0,
+              "mileage": 0.7561,
+              "region": 1.0,
+              "condition": 1.0,
+              "dealer_service": 1.0,
+              "commercial": 1.0
+            },
+            "reference_ratio": 1.0,
+            "adjustment_terms": {
+              "year": 0.0,
+              "mileage": -0.05121900000000001,
+              "condition": 0.0,
+              "dealer_service": 0.0,
+              "commercial": 0.0,
+              "region": 0.0
+            },
+            "raw_ratio": 0.948781,
+            "ratio": 0.948781,
+            "adjusted_price": 384.33220747999997
+          },
+          {
+            "case": {
+              "case_id": "VN0721",
+              "vehicle": {
+                "frame_id": "vios-g",
+                "year": 2020,
+                "mileage": 88825,
+                "region": "Hà Nội",
+                "condition": "Khá",
+                "dealer_service": false,
+                "commercial": false,
+                "flood": false,
+                "major_accident": false
+              },
+              "price": 410.18
+            },
+            "similarity": 0.9507375,
+            "components": {
+              "trim": 1.0,
+              "year": 0.8,
+              "mileage": 0.9485416666666666,
+              "region": 1.0,
+              "condition": 1.0,
+              "dealer_service": 1.0,
+              "commercial": 1.0
+            },
+            "reference_ratio": 1.0,
+            "adjustment_terms": {
+              "year": -0.045,
+              "mileage": -0.010806250000000002,
+              "condition": 0.0,
+              "dealer_service": 0.0,
+              "commercial": 0.0,
+              "region": 0.0
+            },
+            "raw_ratio": 0.9441937499999999,
+            "ratio": 0.9441937499999999,
+            "adjusted_price": 387.289392375
+          },
+          {
+            "case": {
+              "case_id": "VN0466",
+              "vehicle": {
+                "frame_id": "vios-g",
+                "year": 2019,
+                "mileage": 61030,
+                "region": "Hà Nội",
+                "condition": "Khá",
+                "dealer_service": false,
+                "commercial": false,
+                "flood": false,
+                "major_accident": false
+              },
+              "price": 395.16
+            },
+            "similarity": 0.949045,
+            "components": {
+              "trim": 1.0,
+              "year": 1.0,
+              "mileage": 0.7169166666666666,
+              "region": 1.0,
+              "condition": 1.0,
+              "dealer_service": 1.0,
+              "commercial": 1.0
+            },
+            "reference_ratio": 1.0,
+            "adjustment_terms": {
+              "year": 0.0,
+              "mileage": -0.0594475,
+              "condition": 0.0,
+              "dealer_service": 0.0,
+              "commercial": 0.0,
+              "region": 0.0
+            },
+            "raw_ratio": 0.9405525,
+            "ratio": 0.9405525,
+            "adjusted_price": 371.6687259
+          },
+          {
+            "case": {
+              "case_id": "VN0385",
+              "vehicle": {
+                "frame_id": "vios-g",
+                "year": 2018,
+                "mileage": 85449,
+                "region": "Hà Nội",
+                "condition": "Khá",
+                "dealer_service": false,
+                "commercial": false,
+                "flood": false,
+                "major_accident": false
+              },
+              "price": 352.98
+            },
+            "similarity": 0.9456735000000001,
+            "components": {
+              "trim": 1.0,
+              "year": 0.8,
+              "mileage": 0.9204083333333333,
+              "region": 1.0,
+              "condition": 1.0,
+              "dealer_service": 1.0,
+              "commercial": 1.0
+            },
+            "reference_ratio": 1.0,
+            "adjustment_terms": {
+              "year": 0.045,
+              "mileage": -0.01671425,
+              "condition": 0.0,
+              "dealer_service": 0.0,
+              "commercial": 0.0,
+              "region": 0.0
+            },
+            "raw_ratio": 1.02828575,
+            "ratio": 1.02828575,
+            "adjusted_price": 362.964304035
+          },
+          {
+            "case": {
+              "case_id": "VN0036",
+              "vehicle": {
+                "frame_id": "vios-g",
+                "year": 2019,
+                "mileage": 88865,
+                "region": "Hà Nội",
+                "condition": "Trung bình",
+                "dealer_service": false,
+                "commercial": false,
+                "flood": false,
+                "major_accident": false
+              },
+              "price": 328.06
+            },
+            "similarity": 0.9441308333333334,
+            "components": {
+              "trim": 1.0,
+              "year": 1.0,
+              "mileage": 0.948875,
+              "region": 1.0,
+              "condition": 0.6666666666666667,
+              "dealer_service": 1.0,
+              "commercial": 1.0
+            },
+            "reference_ratio": 1.0,
+            "adjustment_terms": {
+              "year": 0.0,
+              "mileage": -0.010736250000000001,
+              "condition": 0.055,
+              "dealer_service": 0.0,
+              "commercial": 0.0,
+              "region": 0.0
+            },
+            "raw_ratio": 1.04426375,
+            "ratio": 1.04426375,
+            "adjusted_price": 342.581165825
+          }
+        ],
+        "price": 369.82803884931593,
+        "mean_similarity": 0.9491369666666667,
+        "spread": 13.576740213687213,
+        "reason": null
+      },
+      "rule_weight": 0.27543151666666665,
+      "cbr_weight": 0.7245684833333333,
+      "price": 358.3073302923331,
+      "lower": 303.76382720013305,
+      "upper": 412.8508333845332,
+      "confidence": "Cao",
+      "confidence_reason": "Đủ 5 xe, độ tương tự cao và chênh lệch giữa hai giá thấp.",
+      "interval_rate": 0.1,
+      "disagreement_addition": 14.639747998860598,
+      "spread_addition": 4.073022064106164
+    }
+  },
+  "dealer": {
+    "label": "Xe bảo dưỡng hãng",
+    "frame": {
+      "id": "vios-g",
+      "brand": "Toyota",
+      "model": "Vios",
+      "name": "1.5G CVT",
+      "segment": "Sedan hạng B",
+      "new_price": 548
+    },
+    "valuation": {
+      "vehicle": {
+        "frame_id": "vios-g",
+        "year": 2019,
+        "mileage": 95000,
+        "region": "Hà Nội",
+        "condition": "Khá",
+        "dealer_service": true,
+        "commercial": false,
+        "flood": false,
+        "major_accident": false
+      },
+      "inference": {
+        "reference_price": 548,
+        "price": 348.0818315519999,
+        "steps": [
+          {
+            "rule_id": "TUOI-04",
+            "priority": 900,
+            "explanation": "Xe 6–8 năm tuổi, áp dụng mức khấu hao theo nhóm tuổi.",
+            "before": 548,
+            "delta": -191.8,
+            "after": 356.2,
+            "warning": null
+          },
+          {
+            "rule_id": "KM-03",
+            "priority": 800,
+            "explanation": "Số km thuộc nhóm 60.001–100.000, giảm giá do hao mòn.",
+            "before": 356.2,
+            "delta": -21.372000000000014,
+            "after": 334.828,
+            "warning": null
+          },
+          {
+            "rule_id": "TT-02",
+            "priority": 700,
+            "explanation": "Tình trạng khá, giảm nhẹ để phản ánh hao mòn.",
+            "before": 334.828,
+            "delta": -6.696560000000034,
+            "after": 328.13143999999994,
+            "warning": null
+          },
+          {
+            "rule_id": "BD-01",
+            "priority": 600,
+            "explanation": "Có lịch sử bảo dưỡng hãng, cộng giá theo hồ sơ khai báo.",
+            "before": 328.13143999999994,
+            "delta": 13.125257599999998,
+            "after": 341.25669759999994,
+            "warning": null
+          },
+          {
+            "rule_id": "KV-01",
+            "priority": 500,
+            "explanation": "Áp dụng chênh lệch vùng giả định cho Hà Nội.",
+            "before": 341.25669759999994,
+            "delta": 6.825133951999987,
+            "after": 348.0818315519999,
+            "warning": null
+          }
+        ],
+        "risk_count": 0,
+        "risk_multiplier": 1.0
+      },
+      "cbr": {
+        "neighbors": [
+          {
+            "case": {
+              "case_id": "VN2275",
+              "vehicle": {
+                "frame_id": "vios-g",
+                "year": 2019,
+                "mileage": 118278,
+                "region": "Hà Nội",
+                "condition": "Khá",
+                "dealer_service": true,
+                "commercial": false,
+                "flood": false,
+                "major_accident": false
+              },
+              "price": 334.71
+            },
+            "similarity": 0.965083,
+            "components": {
+              "trim": 1.0,
+              "year": 1.0,
+              "mileage": 0.8060166666666666,
+              "region": 1.0,
+              "condition": 1.0,
+              "dealer_service": 1.0,
+              "commercial": 1.0
+            },
+            "reference_ratio": 1.0,
+            "adjustment_terms": {
+              "year": 0.0,
+              "mileage": 0.0407365,
+              "condition": 0.0,
+              "dealer_service": 0.0,
+              "commercial": 0.0,
+              "region": 0.0
+            },
+            "raw_ratio": 1.0407365,
+            "ratio": 1.0407365,
+            "adjusted_price": 348.34491391499995
+          },
+          {
+            "case": {
+              "case_id": "VN2729",
+              "vehicle": {
+                "frame_id": "vios-g",
+                "year": 2019,
+                "mileage": 68039,
+                "region": "Hà Nội",
+                "condition": "Khá",
+                "dealer_service": true,
+                "commercial": false,
+                "flood": false,
+                "major_accident": false
+              },
+              "price": 407.39
+            },
+            "similarity": 0.9595585,
+            "components": {
+              "trim": 1.0,
+              "year": 1.0,
+              "mileage": 0.775325,
+              "region": 1.0,
+              "condition": 1.0,
+              "dealer_service": 1.0,
+              "commercial": 1.0
+            },
+            "reference_ratio": 1.0,
+            "adjustment_terms": {
+              "year": 0.0,
+              "mileage": -0.04718175,
+              "condition": 0.0,
+              "dealer_service": 0.0,
+              "commercial": 0.0,
+              "region": 0.0
+            },
+            "raw_ratio": 0.95281825,
+            "ratio": 0.95281825,
+            "adjusted_price": 388.1686268675
+          },
+          {
+            "case": {
+              "case_id": "VN1772",
+              "vehicle": {
+                "frame_id": "vios-g",
+                "year": 2020,
+                "mileage": 95393,
+                "region": "Hà Nội",
+                "condition": "Khá",
+                "dealer_service": true,
+                "commercial": false,
+                "flood": false,
+                "major_accident": false
+              },
+              "price": 379.19
+            },
+            "similarity": 0.9594105,
+            "components": {
+              "trim": 1.0,
+              "year": 0.8,
+              "mileage": 0.996725,
+              "region": 1.0,
+              "condition": 1.0,
+              "dealer_service": 1.0,
+              "commercial": 1.0
+            },
+            "reference_ratio": 1.0,
+            "adjustment_terms": {
+              "year": -0.045,
+              "mileage": 0.0006877500000000001,
+              "condition": 0.0,
+              "dealer_service": 0.0,
+              "commercial": 0.0,
+              "region": 0.0
+            },
+            "raw_ratio": 0.9556877500000001,
+            "ratio": 0.9556877500000001,
+            "adjusted_price": 362.3872379225
+          },
+          {
+            "case": {
+              "case_id": "VN2334",
+              "vehicle": {
+                "frame_id": "vios-g",
+                "year": 2019,
+                "mileage": 95419,
+                "region": "Hà Nội",
+                "condition": "Trung bình",
+                "dealer_service": true,
+                "commercial": false,
+                "flood": false,
+                "major_accident": false
+              },
+              "price": 281.7
+            },
+            "similarity": 0.9527048333333333,
+            "components": {
+              "trim": 1.0,
+              "year": 1.0,
+              "mileage": 0.9965083333333333,
+              "region": 1.0,
+              "condition": 0.6666666666666667,
+              "dealer_service": 1.0,
+              "commercial": 1.0
+            },
+            "reference_ratio": 1.0,
+            "adjustment_terms": {
+              "year": 0.0,
+              "mileage": 0.0007332500000000001,
+              "condition": 0.055,
+              "dealer_service": 0.0,
+              "commercial": 0.0,
+              "region": 0.0
+            },
+            "raw_ratio": 1.05573325,
+            "ratio": 1.05573325,
+            "adjusted_price": 297.400056525
+          },
+          {
+            "case": {
+              "case_id": "VN2273",
+              "vehicle": {
+                "frame_id": "vios-g",
+                "year": 2020,
+                "mileage": 73988,
+                "region": "Hà Nội",
+                "condition": "Khá",
+                "dealer_service": true,
+                "commercial": false,
+                "flood": false,
+                "major_accident": false
+              },
+              "price": 417.07
+            },
+            "similarity": 0.928482,
+            "components": {
+              "trim": 1.0,
+              "year": 0.8,
+              "mileage": 0.8249,
+              "region": 1.0,
+              "condition": 1.0,
+              "dealer_service": 1.0,
+              "commercial": 1.0
+            },
+            "reference_ratio": 1.0,
+            "adjustment_terms": {
+              "year": -0.045,
+              "mileage": -0.036771000000000005,
+              "condition": 0.0,
+              "dealer_service": 0.0,
+              "commercial": 0.0,
+              "region": 0.0
+            },
+            "raw_ratio": 0.918229,
+            "ratio": 0.918229,
+            "adjusted_price": 382.96576903
+          }
+        ],
+        "price": 355.7516705386958,
+        "mean_similarity": 0.9530477666666666,
+        "spread": 26.33236309896685,
+        "reason": null
+      },
+      "rule_weight": 0.2734761166666667,
+      "cbr_weight": 0.7265238833333333,
+      "price": 353.6541527571556,
+      "lower": 307.7045849064064,
+      "upper": 399.6037206079048,
+      "confidence": "Cao",
+      "confidence_reason": "Đủ 5 xe, độ tương tự cao và chênh lệch giữa hai giá thấp.",
+      "interval_rate": 0.1,
+      "disagreement_addition": 2.6844436453435576,
+      "spread_addition": 7.899708929690055
+    }
+  },
+  "flood": {
+    "label": "Xe ngập nước",
+    "frame": {
+      "id": "vios-g",
+      "brand": "Toyota",
+      "model": "Vios",
+      "name": "1.5G CVT",
+      "segment": "Sedan hạng B",
+      "new_price": 548
+    },
+    "valuation": {
+      "vehicle": {
+        "frame_id": "vios-g",
+        "year": 2019,
+        "mileage": 95000,
+        "region": "Hà Nội",
+        "condition": "Trung bình",
+        "dealer_service": false,
+        "commercial": false,
+        "flood": true,
+        "major_accident": false
+      },
+      "inference": {
+        "reference_price": 548,
+        "price": 218.62216574016,
+        "steps": [
+          {
+            "rule_id": "TUOI-04",
+            "priority": 900,
+            "explanation": "Xe 6–8 năm tuổi, áp dụng mức khấu hao theo nhóm tuổi.",
+            "before": 548,
+            "delta": -191.8,
+            "after": 356.2,
+            "warning": null
+          },
+          {
+            "rule_id": "KM-03",
+            "priority": 800,
+            "explanation": "Số km thuộc nhóm 60.001–100.000, giảm giá do hao mòn.",
+            "before": 356.2,
+            "delta": -21.372000000000014,
+            "after": 334.828,
+            "warning": null
+          },
+          {
+            "rule_id": "TT-03",
+            "priority": 700,
+            "explanation": "Tình trạng trung bình, dự phòng chi phí phục hồi.",
+            "before": 334.828,
+            "delta": -26.786239999999964,
+            "after": 308.04176,
+            "warning": null
+          },
+          {
+            "rule_id": "BD-02",
+            "priority": 600,
+            "explanation": "Thiếu xác nhận bảo dưỡng hãng, giảm nhẹ giá.",
+            "before": 308.04176,
+            "delta": -6.160835200000008,
+            "after": 301.8809248,
+            "warning": null
+          },
+          {
+            "rule_id": "KV-01",
+            "priority": 500,
+            "explanation": "Áp dụng chênh lệch vùng giả định cho Hà Nội.",
+            "before": 301.8809248,
+            "delta": 6.037618495999993,
+            "after": 307.918543296,
+            "warning": null
+          },
+          {
+            "rule_id": "RR-02",
+            "priority": 390,
+            "explanation": "Trừ giá cho rủi ro hư hại do ngập nước.",
+            "before": 307.918543296,
+            "delta": -89.29637755584,
+            "after": 218.62216574016,
+            "warning": "Xe từng ngập nước. Cần kiểm tra hệ thống điện, nội thất và dấu gỉ."
+          }
+        ],
+        "risk_count": 1,
+        "risk_multiplier": 0.71
+      },
+      "cbr": {
+        "neighbors": [
+          {
+            "case": {
+              "case_id": "VN0135",
+              "vehicle": {
+                "frame_id": "vios-e",
+                "year": 2019,
+                "mileage": 118623,
+                "region": "Hà Nội",
+                "condition": "Trung bình",
+                "dealer_service": false,
+                "commercial": false,
+                "flood": true,
+                "major_accident": false
+              },
+              "price": 219.92
+            },
+            "similarity": 0.8325655000000001,
+            "components": {
+              "trim": 0.4,
+              "year": 1.0,
+              "mileage": 0.8031416666666666,
+              "region": 1.0,
+              "condition": 1.0,
+              "dealer_service": 1.0,
+              "commercial": 1.0
+            },
+            "reference_ratio": 1.096,
+            "adjustment_terms": {
+              "year": 0.0,
+              "mileage": 0.04134025,
+              "condition": 0.0,
+              "dealer_service": 0.0,
+              "commercial": 0.0,
+              "region": 0.0
+            },
+            "raw_ratio": 1.1413089140000001,
+            "ratio": 1.1413089140000001,
+            "adjusted_price": 250.99665636688002
+          },
+          {
+            "case": {
+              "case_id": "VN1958",
+              "vehicle": {
+                "frame_id": "vios-e",
+                "year": 2018,
+                "mileage": 108823,
+                "region": "Hà Nội",
+                "condition": "Trung bình",
+                "dealer_service": false,
+                "commercial": false,
+                "flood": true,
+                "major_accident": false
+              },
+              "price": 185.99
+            },
+            "similarity": 0.8072655000000001,
+            "components": {
+              "trim": 0.4,
+              "year": 0.8,
+              "mileage": 0.8848083333333333,
+              "region": 1.0,
+              "condition": 1.0,
+              "dealer_service": 1.0,
+              "commercial": 1.0
+            },
+            "reference_ratio": 1.096,
+            "adjustment_terms": {
+              "year": 0.045,
+              "mileage": 0.024190250000000003,
+              "condition": 0.0,
+              "dealer_service": 0.0,
+              "commercial": 0.0,
+              "region": 0.0
+            },
+            "raw_ratio": 1.1718325140000003,
+            "ratio": 1.1718325140000003,
+            "adjusted_price": 217.94912927886008
+          },
+          {
+            "case": {
+              "case_id": "VN1402",
+              "vehicle": {
+                "frame_id": "vios-g",
+                "year": 2019,
+                "mileage": 95427,
+                "region": "Tỉnh miền Bắc",
+                "condition": "Kém",
+                "dealer_service": true,
+                "commercial": false,
+                "flood": true,
+                "major_accident": false
+              },
+              "price": 189.88
+            },
+            "similarity": 0.7926928333333334,
+            "components": {
+              "trim": 1.0,
+              "year": 1.0,
+              "mileage": 0.9964416666666667,
+              "region": 0.0,
+              "condition": 0.6666666666666667,
+              "dealer_service": 0.0,
+              "commercial": 1.0
+            },
+            "reference_ratio": 1.0,
+            "adjustment_terms": {
+              "year": 0.0,
+              "mileage": 0.0007472500000000001,
+              "condition": 0.055,
+              "dealer_service": -0.035,
+              "commercial": 0.0,
+              "region": 0.032
+            },
+            "raw_ratio": 1.05274725,
+            "ratio": 1.05274725,
+            "adjusted_price": 199.89564782999997
+          },
+          {
+            "case": {
+              "case_id": "VN1908",
+              "vehicle": {
+                "frame_id": "vios-g",
+                "year": 2016,
+                "mileage": 121639,
+                "region": "Tỉnh miền Bắc",
+                "condition": "Trung bình",
+                "dealer_service": false,
+                "commercial": false,
+                "flood": true,
+                "major_accident": false
+              },
+              "price": 189.45
+            },
+            "similarity": 0.7600415,
+            "components": {
+              "trim": 1.0,
+              "year": 0.4,
+              "mileage": 0.7780083333333333,
+              "region": 0.0,
+              "condition": 1.0,
+              "dealer_service": 1.0,
+              "commercial": 1.0
+            },
+            "reference_ratio": 1.0,
+            "adjustment_terms": {
+              "year": 0.135,
+              "mileage": 0.04661825,
+              "condition": 0.0,
+              "dealer_service": 0.0,
+              "commercial": 0.0,
+              "region": 0.032
+            },
+            "raw_ratio": 1.2136182500000001,
+            "ratio": 1.2136182500000001,
+            "adjusted_price": 229.91997746250001
+          },
+          {
+            "case": {
+              "case_id": "VN0991",
+              "vehicle": {
+                "frame_id": "vios-g",
+                "year": 2016,
+                "mileage": 155413,
+                "region": "Hà Nội",
+                "condition": "Kém",
+                "dealer_service": false,
+                "commercial": false,
+                "flood": true,
+                "major_accident": false
+              },
+              "price": 172.08
+            },
+            "similarity": 0.7427138333333334,
+            "components": {
+              "trim": 1.0,
+              "year": 0.4,
+              "mileage": 0.4965583333333333,
+              "region": 1.0,
+              "condition": 0.6666666666666667,
+              "dealer_service": 1.0,
+              "commercial": 1.0
+            },
+            "reference_ratio": 1.0,
+            "adjustment_terms": {
+              "year": 0.135,
+              "mileage": 0.10572275,
+              "condition": 0.055,
+              "dealer_service": 0.0,
+              "commercial": 0.0,
+              "region": 0.0
+            },
+            "raw_ratio": 1.29572275,
+            "ratio": 1.29572275,
+            "adjusted_price": 222.96797082
+          }
+        ],
+        "price": 224.56346816051547,
+        "mean_similarity": 0.7870558333333334,
+        "spread": 13.253712794337694,
+        "reason": null
+      },
+      "rule_weight": 0.4851776666666666,
+      "cbr_weight": 0.5148223333333334,
+      "price": 221.68088091524638,
+      "lower": 184.58998790168616,
+      "upper": 258.7717739288066,
+      "confidence": "Thấp",
+      "confidence_reason": "Có lịch sử ngập nước hoặc tai nạn nặng.",
+      "interval_rate": 0.14,
+      "disagreement_addition": 2.0794558471244144,
+      "spread_addition": 3.976113838301308
+    }
+  },
+  "commercial": {
+    "label": "Xe chạy dịch vụ",
+    "frame": {
+      "id": "vios-g",
+      "brand": "Toyota",
+      "model": "Vios",
+      "name": "1.5G CVT",
+      "segment": "Sedan hạng B",
+      "new_price": 548
+    },
+    "valuation": {
+      "vehicle": {
+        "frame_id": "vios-g",
+        "year": 2019,
+        "mileage": 155000,
+        "region": "Hà Nội",
+        "condition": "Khá",
+        "dealer_service": false,
+        "commercial": true,
+        "flood": false,
+        "major_accident": false
+      },
+      "inference": {
+        "reference_price": 548,
+        "price": 279.4980320496,
+        "steps": [
+          {
+            "rule_id": "TUOI-04",
+            "priority": 900,
+            "explanation": "Xe 6–8 năm tuổi, áp dụng mức khấu hao theo nhóm tuổi.",
+            "before": 548,
+            "delta": -191.8,
+            "after": 356.2,
+            "warning": null
+          },
+          {
+            "rule_id": "KM-04",
+            "priority": 800,
+            "explanation": "Số km trên 100.000, tăng mức khấu trừ hao mòn.",
+            "before": 356.2,
+            "delta": -35.620000000000005,
+            "after": 320.58,
+            "warning": null
+          },
+          {
+            "rule_id": "TT-02",
+            "priority": 700,
+            "explanation": "Tình trạng khá, giảm nhẹ để phản ánh hao mòn.",
+            "before": 320.58,
+            "delta": -6.411600000000021,
+            "after": 314.16839999999996,
+            "warning": null
+          },
+          {
+            "rule_id": "BD-02",
+            "priority": 600,
+            "explanation": "Thiếu xác nhận bảo dưỡng hãng, giảm nhẹ giá.",
+            "before": 314.16839999999996,
+            "delta": -6.283367999999996,
+            "after": 307.88503199999997,
+            "warning": null
+          },
+          {
+            "rule_id": "KV-01",
+            "priority": 500,
+            "explanation": "Áp dụng chênh lệch vùng giả định cho Hà Nội.",
+            "before": 307.88503199999997,
+            "delta": 6.15770064000003,
+            "after": 314.04273264,
+            "warning": null
+          },
+          {
+            "rule_id": "RR-01",
+            "priority": 400,
+            "explanation": "Trừ giá cho lịch sử vận hành dịch vụ.",
+            "before": 314.04273264,
+            "delta": -34.5447005904,
+            "after": 279.4980320496,
+            "warning": "Xe từng chạy dịch vụ. Cần đối chiếu số km và hồ sơ vận hành."
+          }
+        ],
+        "risk_count": 1,
+        "risk_multiplier": 0.89
+      },
+      "cbr": {
+        "neighbors": [
+          {
+            "case": {
+              "case_id": "VN1604",
+              "vehicle": {
+                "frame_id": "vios-g",
+                "year": 2019,
+                "mileage": 147808,
+                "region": "Tỉnh miền Bắc",
+                "condition": "Khá",
+                "dealer_service": false,
+                "commercial": true,
+                "flood": false,
+                "major_accident": false
+              },
+              "price": 266.91
+            },
+            "similarity": 0.909212,
+            "components": {
+              "trim": 1.0,
+              "year": 1.0,
+              "mileage": 0.9400666666666667,
+              "region": 0.0,
+              "condition": 1.0,
+              "dealer_service": 1.0,
+              "commercial": 1.0
+            },
+            "reference_ratio": 1.0,
+            "adjustment_terms": {
+              "year": 0.0,
+              "mileage": -0.012586,
+              "condition": 0.0,
+              "dealer_service": 0.0,
+              "commercial": 0.0,
+              "region": 0.032
+            },
+            "raw_ratio": 1.019414,
+            "ratio": 1.019414,
+            "adjusted_price": 272.09179074
+          },
+          {
+            "case": {
+              "case_id": "VN0768",
+              "vehicle": {
+                "frame_id": "vios-g",
+                "year": 2019,
+                "mileage": 134507,
+                "region": "Hà Nội",
+                "condition": "Tốt",
+                "dealer_service": false,
+                "commercial": false,
+                "flood": false,
+                "major_accident": false
+              },
+              "price": 356.43
+            },
+            "similarity": 0.8225938333333334,
+            "components": {
+              "trim": 1.0,
+              "year": 1.0,
+              "mileage": 0.829225,
+              "region": 1.0,
+              "condition": 0.6666666666666667,
+              "dealer_service": 1.0,
+              "commercial": 0.0
+            },
+            "reference_ratio": 1.0,
+            "adjustment_terms": {
+              "year": 0.0,
+              "mileage": -0.035862750000000006,
+              "condition": -0.055,
+              "dealer_service": 0.0,
+              "commercial": -0.085,
+              "region": 0.0
+            },
+            "raw_ratio": 0.8241372499999999,
+            "ratio": 0.8241372499999999,
+            "adjusted_price": 293.74724001749996
+          },
+          {
+            "case": {
+              "case_id": "VN2702",
+              "vehicle": {
+                "frame_id": "vios-g",
+                "year": 2019,
+                "mileage": 160005,
+                "region": "TP. Hồ Chí Minh",
+                "condition": "Kém",
+                "dealer_service": false,
+                "commercial": true,
+                "flood": false,
+                "major_accident": false
+              },
+              "price": 206.43
+            },
+            "similarity": 0.8191591666666667,
+            "components": {
+              "trim": 1.0,
+              "year": 1.0,
+              "mileage": 0.9582916666666667,
+              "region": 0.0,
+              "condition": 0.33333333333333337,
+              "dealer_service": 1.0,
+              "commercial": 1.0
+            },
+            "reference_ratio": 1.0,
+            "adjustment_terms": {
+              "year": 0.0,
+              "mileage": 0.00875875,
+              "condition": 0.11,
+              "dealer_service": 0.0,
+              "commercial": 0.0,
+              "region": -0.009999999999999998
+            },
+            "raw_ratio": 1.10875875,
+            "ratio": 1.10875875,
+            "adjusted_price": 228.8810687625
+          },
+          {
+            "case": {
+              "case_id": "VN1496",
+              "vehicle": {
+                "frame_id": "vios-e",
+                "year": 2019,
+                "mileage": 157374,
+                "region": "Hà Nội",
+                "condition": "Trung bình",
+                "dealer_service": false,
+                "commercial": true,
+                "flood": false,
+                "major_accident": false
+              },
+              "price": 229.04
+            },
+            "similarity": 0.8177723333333333,
+            "components": {
+              "trim": 0.4,
+              "year": 1.0,
+              "mileage": 0.9802166666666666,
+              "region": 1.0,
+              "condition": 0.6666666666666667,
+              "dealer_service": 1.0,
+              "commercial": 1.0
+            },
+            "reference_ratio": 1.096,
+            "adjustment_terms": {
+              "year": 0.0,
+              "mileage": 0.0041545,
+              "condition": 0.055,
+              "dealer_service": 0.0,
+              "commercial": 0.0,
+              "region": 0.0
+            },
+            "raw_ratio": 1.1608333320000002,
+            "ratio": 1.1608333320000002,
+            "adjusted_price": 265.87726636128
+          },
+          {
+            "case": {
+              "case_id": "VN2104",
+              "vehicle": {
+                "frame_id": "vios-g",
+                "year": 2019,
+                "mileage": 180377,
+                "region": "Tỉnh miền Nam",
+                "condition": "Khá",
+                "dealer_service": true,
+                "commercial": true,
+                "flood": false,
+                "major_accident": false
+              },
+              "price": 282.87
+            },
+            "similarity": 0.8019345,
+            "components": {
+              "trim": 1.0,
+              "year": 1.0,
+              "mileage": 0.788525,
+              "region": 0.0,
+              "condition": 1.0,
+              "dealer_service": 0.0,
+              "commercial": 1.0
+            },
+            "reference_ratio": 1.0,
+            "adjustment_terms": {
+              "year": 0.0,
+              "mileage": 0.044409750000000005,
+              "condition": 0.0,
+              "dealer_service": -0.035,
+              "commercial": 0.0,
+              "region": 0.035
+            },
+            "raw_ratio": 1.04440975,
+            "ratio": 1.04440975,
+            "adjusted_price": 295.4321859825
+          }
+        ],
+        "price": 271.14532023277457,
+        "mean_similarity": 0.8341343666666667,
+        "spread": 18.668080000763293,
+        "reason": null
+      },
+      "rule_weight": 0.33293281666666663,
+      "cbr_weight": 0.6670671833333334,
+      "price": 273.9262121047552,
+      "lower": 232.5311935160667,
+      "upper": 315.32123069344374,
+      "confidence": "Trung bình",
+      "confidence_reason": "Độ tương tự và chênh lệch giá đạt ngưỡng trung bình.",
+      "interval_rate": 0.12000000000000001,
+      "disagreement_addition": 2.9234491358889017,
+      "spread_addition": 5.600424000228988
+    }
+  },
+  "sparse": {
+    "label": "Xe thiếu tình huống tương tự",
+    "frame": {
+      "id": "rx-350",
+      "brand": "Lexus",
+      "model": "RX",
+      "name": "350 Luxury",
+      "segment": "SUV hạng sang",
+      "new_price": 3430
+    },
+    "valuation": {
+      "vehicle": {
+        "frame_id": "rx-350",
+        "year": 2021,
+        "mileage": 50000,
+        "region": "Hà Nội",
+        "condition": "Tốt",
+        "dealer_service": false,
+        "commercial": false,
+        "flood": false,
+        "major_accident": false
+      },
+      "inference": {
+        "reference_price": 3430,
+        "price": 2507.3556564,
+        "steps": [
+          {
+            "rule_id": "TUOI-03",
+            "priority": 900,
+            "explanation": "Xe 4–5 năm tuổi, áp dụng mức khấu hao theo nhóm tuổi.",
+            "before": 3430,
+            "delta": -994.7000000000003,
+            "after": 2435.2999999999997,
+            "warning": null
+          },
+          {
+            "rule_id": "KM-02",
+            "priority": 800,
+            "explanation": "Số km trong nhóm sử dụng nhẹ, giữ nguyên giá.",
+            "before": 2435.2999999999997,
+            "delta": 0.0,
+            "after": 2435.2999999999997,
+            "warning": null
+          },
+          {
+            "rule_id": "TT-01",
+            "priority": 700,
+            "explanation": "Tình trạng tốt, cộng cho chất lượng hiện tại.",
+            "before": 2435.2999999999997,
+            "delta": 73.0590000000002,
+            "after": 2508.359,
+            "warning": null
+          },
+          {
+            "rule_id": "BD-02",
+            "priority": 600,
+            "explanation": "Thiếu xác nhận bảo dưỡng hãng, giảm nhẹ giá.",
+            "before": 2508.359,
+            "delta": -50.16717999999992,
+            "after": 2458.19182,
+            "warning": null
+          },
+          {
+            "rule_id": "KV-01",
+            "priority": 500,
+            "explanation": "Áp dụng chênh lệch vùng giả định cho Hà Nội.",
+            "before": 2458.19182,
+            "delta": 49.16383640000004,
+            "after": 2507.3556564,
+            "warning": null
+          }
+        ],
+        "risk_count": 0,
+        "risk_multiplier": 1.0
+      },
+      "cbr": {
+        "neighbors": [],
+        "price": null,
+        "mean_similarity": 0.0,
+        "spread": 0.0,
+        "reason": "Chỉ có 0 xe đạt ngưỡng tương tự 72%. Cần ít nhất 2 xe cùng dòng và cùng hồ sơ ngập nước, tai nạn nặng."
+      },
+      "rule_weight": 1.0,
+      "cbr_weight": 0.0,
+      "price": 2507.3556564,
+      "lower": 2056.031638248,
+      "upper": 2958.679674552,
+      "confidence": "Thấp",
+      "confidence_reason": "Chỉ có 0 xe đạt ngưỡng tương tự 72%. Cần ít nhất 2 xe cùng dòng và cùng hồ sơ ngập nước, tai nạn nặng.",
+      "interval_rate": 0.18,
+      "disagreement_addition": 0.0,
+      "spread_addition": 0.0
+    }
+  }
+}

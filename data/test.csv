@@ -1,0 +1,601 @@
+case_id,frame_id,year,mileage,region,condition,dealer_service,commercial,flood,major_accident,price
+VN0010,xpander-at,2023,81115,Hà Nội,Khá,True,True,False,False,440.47
+VN0011,crv-g,2023,45097,Đà Nẵng,Tốt,True,False,False,False,800.80
+VN0012,seltos-pre,2023,50176,Đà Nẵng,Tốt,True,False,False,False,621.03
+VN0014,civic-rs,2024,32636,TP. Hồ Chí Minh,Khá,False,False,False,False,749.22
+VN0016,m3-pre,2024,16630,Tỉnh miền Bắc,Tốt,True,False,False,False,689.83
+VN0018,accent-at,2021,72523,Đà Nẵng,Tốt,True,False,False,False,345.08
+VN0020,accent-top,2017,189496,Đà Nẵng,Khá,True,True,False,False,269.54
+VN0021,civic-g,2016,139565,Tỉnh miền Bắc,Trung bình,False,False,True,False,282.30
+VN0022,city-rs,2020,131971,Hà Nội,Tốt,True,True,False,False,368.16
+VN0027,morning-x,2024,35551,TP. Hồ Chí Minh,Tốt,True,False,False,False,406.21
+VN0049,vios-g,2019,52924,Tỉnh miền Bắc,Trung bình,True,False,False,False,372.03
+VN0054,vios-g,2022,54468,Tỉnh miền Nam,Khá,False,False,False,False,422.96
+VN0056,m3-lux,2014,170868,Tỉnh miền Nam,Khá,True,False,False,False,347.41
+VN0058,vios-e,2022,62481,Tỉnh miền Nam,Khá,False,False,False,False,387.57
+VN0082,crv-g,2018,132073,Đà Nẵng,Khá,False,False,False,False,520.48
+VN0085,accent-top,2022,45039,Hà Nội,Tốt,True,False,False,False,508.74
+VN0091,fortuner-28,2020,96512,Tỉnh miền Nam,Khá,True,False,False,False,897.42
+VN0092,accent-at,2019,83770,Tỉnh miền Bắc,Tốt,False,False,False,False,321.59
+VN0099,cross-hev,2025,12493,Hà Nội,Tốt,False,False,False,False,837.18
+VN0104,city-l,2025,8779,TP. Hồ Chí Minh,Tốt,True,False,False,False,531.17
+VN0118,civic-g,2020,121137,TP. Hồ Chí Minh,Trung bình,True,False,False,True,370.49
+VN0120,m3-pre,2020,88845,Hà Nội,Khá,True,False,False,False,489.94
+VN0132,tucson-turbo,2024,35475,Hà Nội,Tốt,True,False,False,False,914.97
+VN0134,city-rs,2019,100952,Hà Nội,Khá,True,False,False,False,391.71
+VN0137,accent-at,2016,133966,Hà Nội,Khá,False,False,False,False,242.63
+VN0139,xpander-at,2021,85641,Hà Nội,Khá,False,False,False,False,409.68
+VN0140,vios-g,2021,68464,Đà Nẵng,Tốt,True,False,False,False,415.15
+VN0142,morning-at,2018,127677,Hà Nội,Khá,False,False,False,False,233.54
+VN0143,tucson-turbo,2023,57439,Tỉnh miền Bắc,Khá,False,True,False,False,647.24
+VN0155,i10-at,2014,179016,Tỉnh miền Bắc,Trung bình,False,False,False,False,174.46
+VN0158,vios-e,2023,51413,Hà Nội,Khá,False,False,False,True,303.68
+VN0160,vios-e,2013,147415,Hà Nội,Trung bình,False,False,False,False,221.29
+VN0163,vios-e,2020,53444,Tỉnh miền Nam,Trung bình,False,False,False,False,326.47
+VN0170,civic-rs,2021,66463,Đà Nẵng,Khá,False,False,False,False,661.38
+VN0173,vios-g,2017,200835,TP. Hồ Chí Minh,Trung bình,True,True,False,False,235.03
+VN0176,accent-top,2021,80766,Hà Nội,Khá,False,False,False,False,364.67
+VN0181,accent-top,2023,45670,Tỉnh miền Bắc,Tốt,False,False,False,False,444.22
+VN0182,cx5-pre,2021,60436,Tỉnh miền Bắc,Tốt,False,False,False,False,627.03
+VN0191,city-l,2015,111225,Tỉnh miền Nam,Khá,False,False,False,False,318.23
+VN0201,vios-e,2020,94455,Tỉnh miền Nam,Khá,False,False,False,False,318.03
+VN0202,i10-at,2017,120806,TP. Hồ Chí Minh,Khá,True,False,False,False,256.30
+VN0204,vios-e,2012,316372,Hà Nội,Kém,False,True,False,False,116.04
+VN0206,m3-lux,2024,50810,TP. Hồ Chí Minh,Tốt,True,False,False,False,544.60
+VN0210,accent-top,2019,134643,TP. Hồ Chí Minh,Khá,False,False,False,False,292.80
+VN0214,accent-at,2019,93505,Hà Nội,Trung bình,False,False,False,True,229.92
+VN0215,tucson-turbo,2014,168181,TP. Hồ Chí Minh,Trung bình,False,False,False,False,400.83
+VN0221,vios-e,2023,37124,Tỉnh miền Nam,Khá,True,False,False,False,403.19
+VN0226,i10-base,2018,105788,Tỉnh miền Bắc,Khá,False,False,False,False,200.38
+VN0228,city-l,2018,84048,Hà Nội,Khá,True,False,False,False,372.88
+VN0230,city-rs,2021,79839,TP. Hồ Chí Minh,Khá,True,False,False,False,453.95
+VN0233,vios-g,2012,160003,Hà Nội,Trung bình,True,False,False,False,226.49
+VN0240,seltos-pre,2021,81132,Tỉnh miền Nam,Khá,False,False,False,False,549.26
+VN0245,crv-l,2023,52838,Hà Nội,Khá,True,False,False,False,987.76
+VN0247,city-rs,2021,58125,Tỉnh miền Bắc,Khá,False,False,False,False,409.22
+VN0248,civic-rs,2020,60232,Hà Nội,Khá,True,False,False,False,637.03
+VN0249,city-rs,2020,59945,TP. Hồ Chí Minh,Khá,False,False,False,False,452.24
+VN0253,accent-top,2018,96531,TP. Hồ Chí Minh,Khá,True,False,False,False,429.27
+VN0254,k3-lux,2021,79848,Đà Nẵng,Khá,False,False,False,False,415.68
+VN0267,vios-g,2019,101826,Tỉnh miền Nam,Khá,True,False,False,False,323.46
+VN0275,ranger-xls,2013,214881,Tỉnh miền Nam,Trung bình,False,False,False,False,253.33
+VN0283,city-l,2025,2826,Tỉnh miền Bắc,Khá,True,False,True,False,383.26
+VN0287,m3-lux,2021,43396,Tỉnh miền Bắc,Tốt,True,False,False,False,464.94
+VN0289,vios-e,2013,142236,TP. Hồ Chí Minh,Kém,False,False,False,False,223.36
+VN0290,accent-top,2024,39059,Tỉnh miền Bắc,Tốt,True,False,False,False,489.21
+VN0292,i10-at,2022,48537,TP. Hồ Chí Minh,Trung bình,True,False,True,False,231.88
+VN0295,accent-at,2022,58459,TP. Hồ Chí Minh,Tốt,True,False,False,False,426.00
+VN0306,city-l,2020,105395,Tỉnh miền Bắc,Khá,False,False,False,False,304.73
+VN0307,cx5-deluxe,2020,93242,TP. Hồ Chí Minh,Khá,True,False,False,False,535.16
+VN0311,morning-at,2024,35382,Tỉnh miền Nam,Tốt,True,False,False,False,346.99
+VN0320,cross-hev,2024,8733,Hà Nội,Khá,True,False,False,False,816.36
+VN0330,cross-hev,2022,41499,Tỉnh miền Bắc,Khá,False,False,False,False,688.83
+VN0332,fortuner-28,2022,62881,Hà Nội,Khá,False,False,False,False,1068.03
+VN0335,m3-lux,2018,123618,Hà Nội,Trung bình,True,False,False,False,339.58
+VN0336,vios-e,2018,103573,Hà Nội,Trung bình,False,False,False,False,267.09
+VN0341,accent-at,2020,120239,TP. Hồ Chí Minh,Khá,False,True,False,False,293.02
+VN0342,vios-e,2016,160280,TP. Hồ Chí Minh,Khá,True,False,False,False,259.86
+VN0343,tucson-20,2017,127988,Tỉnh miền Nam,Kém,False,False,False,False,338.98
+VN0351,city-l,2019,145101,Tỉnh miền Bắc,Tốt,True,True,False,False,305.73
+VN0356,morning-at,2022,69490,Tỉnh miền Nam,Tốt,True,False,False,False,294.92
+VN0361,k3-lux,2024,21073,Hà Nội,Khá,False,False,False,False,551.98
+VN0363,i10-base,2016,125822,TP. Hồ Chí Minh,Kém,False,False,False,False,177.00
+VN0369,vios-g,2017,208093,TP. Hồ Chí Minh,Kém,False,True,False,False,190.92
+VN0381,vios-e,2023,30918,Hà Nội,Tốt,False,False,False,False,449.32
+VN0382,morning-at,2021,60720,TP. Hồ Chí Minh,Khá,False,False,False,False,270.84
+VN0398,seltos-lux,2023,49025,Tỉnh miền Nam,Tốt,True,False,False,False,610.23
+VN0410,civic-g,2019,105135,TP. Hồ Chí Minh,Khá,False,False,False,False,517.97
+VN0416,i10-base,2024,23700,Hà Nội,Tốt,True,False,False,False,328.23
+VN0418,accent-at,2016,144829,Đà Nẵng,Khá,True,False,False,False,221.61
+VN0423,vios-e,2020,52595,Tỉnh miền Nam,Khá,False,False,False,False,343.06
+VN0425,morning-x,2020,49035,Tỉnh miền Bắc,Khá,False,False,False,False,306.55
+VN0437,xpander-pre,2022,29307,TP. Hồ Chí Minh,Tốt,True,False,False,False,524.70
+VN0451,xpander-pre,2021,101537,Hà Nội,Khá,True,False,False,False,490.39
+VN0454,xpander-at,2020,95210,TP. Hồ Chí Minh,Khá,True,False,False,False,390.02
+VN0455,tucson-20,2022,35383,Hà Nội,Khá,False,False,False,False,667.02
+VN0462,seltos-lux,2021,82038,Đà Nẵng,Khá,True,False,False,False,513.74
+VN0472,vios-g,2011,148673,TP. Hồ Chí Minh,Khá,False,False,False,False,290.86
+VN0473,xpander-at,2022,46076,TP. Hồ Chí Minh,Khá,False,False,False,False,476.31
+VN0474,xpander-pre,2025,17751,TP. Hồ Chí Minh,Tốt,True,False,False,False,640.66
+VN0476,ranger-xls,2023,31354,Tỉnh miền Bắc,Khá,True,False,False,False,560.13
+VN0480,accent-top,2017,103719,TP. Hồ Chí Minh,Tốt,True,False,False,False,368.49
+VN0482,fortuner-24,2016,119499,Tỉnh miền Bắc,Khá,True,False,False,False,569.42
+VN0498,xpander-pre,2022,74862,TP. Hồ Chí Minh,Tốt,True,False,False,False,476.69
+VN0500,accent-at,2019,84909,Tỉnh miền Bắc,Tốt,False,False,False,False,341.32
+VN0501,vios-g,2018,109344,Hà Nội,Tốt,True,False,False,False,361.40
+VN0522,vios-g,2021,44049,Tỉnh miền Bắc,Khá,True,False,False,False,428.59
+VN0525,vios-g,2024,40209,Hà Nội,Khá,False,False,False,True,385.75
+VN0535,i10-base,2022,72177,Đà Nẵng,Khá,False,False,False,False,237.56
+VN0553,vios-g,2025,30543,Tỉnh miền Nam,Tốt,True,True,False,False,435.30
+VN0554,civic-g,2017,108923,Hà Nội,Khá,True,False,False,False,559.45
+VN0557,fortuner-28,2017,120698,Hà Nội,Khá,False,False,False,False,795.54
+VN0564,crv-g,2024,35624,TP. Hồ Chí Minh,Tốt,True,False,False,False,944.96
+VN0576,accent-top,2023,30392,TP. Hồ Chí Minh,Tốt,False,False,False,False,469.71
+VN0582,fortuner-24,2020,99212,Tỉnh miền Nam,Tốt,True,False,False,False,681.76
+VN0595,accent-at,2016,110326,Hà Nội,Khá,False,False,False,False,283.76
+VN0597,city-rs,2017,171382,Hà Nội,Khá,False,False,False,False,341.80
+VN0603,vios-g,2017,123846,TP. Hồ Chí Minh,Khá,True,False,False,False,329.05
+VN0612,accent-top,2014,213390,Hà Nội,Khá,True,False,False,False,237.09
+VN0621,ranger-xls,2023,53503,Hà Nội,Khá,False,False,False,False,603.99
+VN0625,morning-x,2018,90735,Đà Nẵng,Khá,True,False,False,False,280.23
+VN0627,cx5-pre,2024,24928,TP. Hồ Chí Minh,Tốt,True,False,False,False,834.86
+VN0631,seltos-lux,2021,72717,Hà Nội,Trung bình,True,False,False,True,411.07
+VN0633,k3-turbo,2020,78335,Tỉnh miền Bắc,Khá,True,False,False,False,566.39
+VN0644,cx5-deluxe,2025,24940,Tỉnh miền Nam,Tốt,False,False,False,False,634.13
+VN0649,fortuner-24,2022,54678,TP. Hồ Chí Minh,Khá,True,False,False,False,770.13
+VN0656,city-rs,2015,157486,Hà Nội,Trung bình,False,False,False,False,258.26
+VN0658,accent-top,2023,51375,Hà Nội,Tốt,True,False,False,False,502.71
+VN0659,civic-rs,2019,83629,Tỉnh miền Bắc,Khá,True,False,False,False,580.67
+VN0660,vios-e,2016,121826,Tỉnh miền Nam,Trung bình,True,False,False,False,277.20
+VN0665,seltos-pre,2023,50762,Hà Nội,Khá,False,False,False,False,624.51
+VN0668,accent-top,2015,155962,TP. Hồ Chí Minh,Khá,True,False,False,False,284.03
+VN0670,k3-lux,2021,69706,TP. Hồ Chí Minh,Tốt,False,False,False,False,465.33
+VN0673,morning-at,2016,138799,Hà Nội,Khá,True,False,False,False,214.48
+VN0682,accent-top,2016,105039,Hà Nội,Tốt,True,False,False,False,364.38
+VN0690,morning-x,2022,64684,Tỉnh miền Nam,Trung bình,False,False,False,False,287.66
+VN0694,ranger-wt,2018,107795,TP. Hồ Chí Minh,Khá,False,False,False,False,558.35
+VN0697,city-l,2018,83758,Tỉnh miền Nam,Khá,False,False,False,False,343.77
+VN0699,city-l,2016,110612,Hà Nội,Khá,True,False,False,False,340.40
+VN0705,fortuner-28,2020,67337,Tỉnh miền Bắc,Tốt,True,False,False,False,1044.63
+VN0706,fortuner-28,2015,235545,Tỉnh miền Bắc,Trung bình,False,True,False,False,501.54
+VN0708,city-l,2021,68605,Hà Nội,Khá,False,False,False,False,388.11
+VN0718,vios-g,2018,103333,Hà Nội,Trung bình,True,False,False,False,352.88
+VN0723,seltos-pre,2022,58696,Tỉnh miền Bắc,Khá,True,False,False,False,554.01
+VN0731,accent-top,2018,107249,Hà Nội,Khá,False,False,False,False,327.88
+VN0748,k3-lux,2020,72994,Hà Nội,Khá,False,False,False,False,454.86
+VN0752,m3-pre,2023,41499,TP. Hồ Chí Minh,Khá,True,False,False,False,537.97
+VN0753,xpander-pre,2022,56738,Tỉnh miền Bắc,Tốt,False,False,False,False,484.94
+VN0755,civic-g,2017,151728,TP. Hồ Chí Minh,Khá,False,False,False,False,452.89
+VN0757,vios-g,2017,97784,Hà Nội,Kém,False,False,False,False,268.14
+VN0766,ranger-wt,2022,64229,Tỉnh miền Nam,Khá,True,False,False,False,626.59
+VN0772,ranger-wt,2019,131588,TP. Hồ Chí Minh,Khá,False,False,False,False,491.21
+VN0790,civic-rs,2022,39346,Hà Nội,Tốt,True,False,False,False,712.47
+VN0799,vios-g,2020,69574,TP. Hồ Chí Minh,Khá,True,False,False,False,407.11
+VN0800,vios-g,2014,307552,TP. Hồ Chí Minh,Kém,False,True,False,False,130.66
+VN0803,fortuner-24,2021,63972,Tỉnh miền Nam,Trung bình,False,False,False,False,716.60
+VN0805,tucson-turbo,2015,133642,Tỉnh miền Nam,Trung bình,False,False,False,False,458.98
+VN0806,city-rs,2022,113717,Tỉnh miền Nam,Trung bình,True,True,False,True,242.62
+VN0814,ranger-xls,2019,85152,Tỉnh miền Bắc,Khá,True,False,False,False,415.35
+VN0815,city-l,2023,45660,Hà Nội,Tốt,True,False,False,False,527.28
+VN0819,ranger-xls,2022,58606,Tỉnh miền Bắc,Khá,False,False,False,False,496.24
+VN0834,i10-base,2024,30350,TP. Hồ Chí Minh,Tốt,True,False,False,False,331.20
+VN0838,vios-g,2023,47550,Tỉnh miền Nam,Tốt,False,False,False,False,468.79
+VN0839,xpander-pre,2022,53349,TP. Hồ Chí Minh,Tốt,True,False,False,False,540.63
+VN0843,city-l,2020,156050,Tỉnh miền Nam,Khá,True,True,False,False,260.93
+VN0846,ranger-xls,2023,51111,Hà Nội,Tốt,True,False,False,False,660.11
+VN0852,vios-g,2015,255067,Tỉnh miền Nam,Trung bình,False,True,False,False,189.71
+VN0856,vios-e,2019,167293,TP. Hồ Chí Minh,Trung bình,True,True,False,False,230.79
+VN0868,k3-turbo,2018,92776,Đà Nẵng,Tốt,True,False,False,False,490.61
+VN0874,m3-lux,2023,55404,Tỉnh miền Bắc,Khá,False,False,False,False,516.57
+VN0882,vios-e,2019,151534,Tỉnh miền Bắc,Khá,True,True,False,False,235.70
+VN0887,city-l,2023,40725,Tỉnh miền Nam,Tốt,True,False,False,False,447.82
+VN0889,ranger-xls,2018,96402,Đà Nẵng,Khá,True,False,False,False,426.88
+VN0896,morning-x,2017,110488,Tỉnh miền Bắc,Khá,False,False,False,False,262.62
+VN0902,m3-lux,2023,54890,Hà Nội,Tốt,True,False,False,False,473.19
+VN0904,vios-g,2022,84349,Tỉnh miền Bắc,Tốt,True,True,False,False,356.07
+VN0906,cx5-pre,2019,95476,Tỉnh miền Nam,Khá,True,False,False,False,537.38
+VN0909,cross-v,2023,42584,TP. Hồ Chí Minh,Tốt,False,False,False,False,687.23
+VN0910,cross-v,2023,42345,Hà Nội,Khá,False,False,False,False,665.55
+VN0911,vios-e,2022,58284,Đà Nẵng,Tốt,True,False,False,False,405.19
+VN0918,m3-pre,2018,97710,TP. Hồ Chí Minh,Khá,False,False,False,False,405.49
+VN0919,seltos-lux,2021,50546,Hà Nội,Khá,True,False,False,False,484.22
+VN0921,cross-v,2023,45430,Tỉnh miền Bắc,Khá,True,False,False,False,590.41
+VN0922,vios-e,2018,195004,Hà Nội,Trung bình,False,True,False,False,218.13
+VN0924,fortuner-28,2022,42774,Đà Nẵng,Tốt,False,False,False,False,1207.65
+VN0925,tucson-turbo,2020,94774,TP. Hồ Chí Minh,Khá,True,False,False,False,610.21
+VN0934,m3-lux,2026,13056,Tỉnh miền Nam,Tốt,False,False,False,False,636.42
+VN0946,fortuner-24,2022,55654,Tỉnh miền Nam,Khá,True,False,False,False,789.58
+VN0961,vios-g,2021,57861,Hà Nội,Khá,True,False,False,False,410.41
+VN0966,city-rs,2021,85245,Tỉnh miền Nam,Khá,True,False,False,False,432.55
+VN0969,cx5-pre,2024,37070,Tỉnh miền Nam,Khá,True,False,False,False,657.07
+VN0974,i10-base,2022,106241,Hà Nội,Trung bình,False,True,False,False,220.76
+VN0986,accent-top,2019,85409,Hà Nội,Khá,True,False,False,False,398.57
+VN0995,accent-top,2019,84254,TP. Hồ Chí Minh,Trung bình,True,False,False,False,295.03
+VN0998,vios-g,2018,120804,Đà Nẵng,Khá,False,False,False,False,299.73
+VN0999,accent-at,2018,148877,Hà Nội,Trung bình,False,False,False,False,259.81
+VN1000,i10-at,2017,127281,Đà Nẵng,Kém,True,False,True,False,142.39
+VN1001,seltos-lux,2021,120017,TP. Hồ Chí Minh,Trung bình,True,True,False,True,280.78
+VN1019,tucson-turbo,2022,45954,Hà Nội,Khá,True,False,True,False,579.55
+VN1024,morning-x,2024,25772,TP. Hồ Chí Minh,Tốt,False,False,False,False,391.37
+VN1034,ranger-xls,2024,25534,Tỉnh miền Nam,Tốt,True,False,False,False,643.45
+VN1036,morning-at,2020,141359,Tỉnh miền Bắc,Khá,True,True,False,False,212.33
+VN1044,vios-e,2023,48818,Tỉnh miền Nam,Khá,False,False,False,False,369.09
+VN1048,accent-at,2021,75738,TP. Hồ Chí Minh,Khá,False,False,False,False,340.27
+VN1051,xpander-pre,2024,32103,TP. Hồ Chí Minh,Khá,True,False,False,False,596.96
+VN1054,cx5-pre,2020,74517,Hà Nội,Tốt,False,False,False,False,537.14
+VN1056,tucson-turbo,2021,135227,Tỉnh miền Nam,Tốt,True,True,False,False,583.54
+VN1070,civic-rs,2018,94454,Hà Nội,Tốt,False,False,False,False,626.96
+VN1076,ranger-xls,2023,53275,Tỉnh miền Bắc,Khá,False,False,False,False,437.70
+VN1079,accent-top,2024,28017,Đà Nẵng,Tốt,False,False,False,False,472.93
+VN1087,vios-g,2019,155423,Tỉnh miền Nam,Trung bình,False,True,False,False,259.45
+VN1090,k3-lux,2019,92826,Tỉnh miền Bắc,Tốt,True,False,False,False,393.16
+VN1095,i10-at,2020,98849,Đà Nẵng,Khá,False,False,False,False,280.59
+VN1111,k3-lux,2019,98285,Hà Nội,Trung bình,False,False,False,False,341.66
+VN1115,m3-lux,2020,87536,Tỉnh miền Bắc,Khá,False,False,False,False,412.11
+VN1117,morning-x,2023,29550,TP. Hồ Chí Minh,Trung bình,False,False,False,False,325.91
+VN1126,accent-top,2019,110323,TP. Hồ Chí Minh,Trung bình,False,False,False,False,350.44
+VN1130,crv-l,2020,61138,Hà Nội,Tốt,True,False,False,False,981.39
+VN1141,m3-pre,2021,55644,Tỉnh miền Bắc,Khá,False,False,False,False,505.14
+VN1151,xpander-at,2025,16223,TP. Hồ Chí Minh,Tốt,True,False,False,False,639.63
+VN1153,vios-g,2025,13942,TP. Hồ Chí Minh,Khá,True,False,False,False,562.91
+VN1157,vios-g,2022,43392,Hà Nội,Khá,False,False,False,False,422.37
+VN1160,k3-lux,2020,57415,Hà Nội,Tốt,False,False,False,False,430.78
+VN1162,vios-e,2020,93586,Hà Nội,Tốt,False,False,False,False,342.45
+VN1173,civic-rs,2024,34975,Đà Nẵng,Khá,False,False,False,False,792.36
+VN1187,vios-e,2023,56858,Tỉnh miền Bắc,Khá,True,False,False,False,416.72
+VN1188,vios-e,2019,100658,TP. Hồ Chí Minh,Trung bình,False,False,False,False,297.60
+VN1190,accent-at,2021,53816,Đà Nẵng,Trung bình,True,False,False,False,308.19
+VN1193,accent-at,2014,262640,Đà Nẵng,Kém,False,True,True,False,100.96
+VN1194,morning-at,2018,98545,Tỉnh miền Nam,Khá,False,False,False,False,207.03
+VN1203,city-rs,2019,94680,TP. Hồ Chí Minh,Khá,True,False,False,False,394.05
+VN1215,xpander-pre,2024,17345,Tỉnh miền Nam,Tốt,True,False,False,False,589.10
+VN1225,ranger-xls,2019,43272,Tỉnh miền Bắc,Trung bình,False,False,False,False,497.18
+VN1226,accent-top,2024,51181,TP. Hồ Chí Minh,Khá,True,True,False,True,341.09
+VN1235,vios-g,2020,66471,Hà Nội,Khá,True,False,False,False,403.58
+VN1237,vios-e,2020,67404,TP. Hồ Chí Minh,Khá,False,False,False,False,339.18
+VN1239,vios-g,2021,60877,Hà Nội,Tốt,True,False,False,False,439.57
+VN1241,vios-e,2017,130370,Hà Nội,Tốt,False,False,False,False,298.42
+VN1247,fortuner-24,2019,54484,TP. Hồ Chí Minh,Khá,False,False,False,False,784.09
+VN1251,cx5-deluxe,2020,62566,TP. Hồ Chí Minh,Trung bình,False,False,False,False,468.96
+VN1267,m3-pre,2025,10685,TP. Hồ Chí Minh,Tốt,True,False,False,True,559.86
+VN1268,city-l,2015,131186,TP. Hồ Chí Minh,Khá,True,False,False,False,300.44
+VN1270,seltos-pre,2021,57427,Hà Nội,Khá,True,False,False,False,609.39
+VN1271,vios-g,2016,135914,Tỉnh miền Nam,Khá,True,False,False,False,284.37
+VN1276,city-rs,2022,59932,TP. Hồ Chí Minh,Tốt,True,False,False,False,508.54
+VN1278,k3-lux,2024,42717,Tỉnh miền Bắc,Khá,False,False,False,False,451.43
+VN1287,k3-lux,2016,119507,Hà Nội,Khá,False,False,False,False,379.27
+VN1288,crv-l,2022,74780,Hà Nội,Khá,True,False,False,False,914.64
+VN1289,k3-turbo,2021,47710,Hà Nội,Khá,True,False,False,False,551.38
+VN1293,morning-at,2025,14996,Tỉnh miền Nam,Khá,True,False,False,False,315.04
+VN1304,tucson-turbo,2022,56067,Hà Nội,Tốt,False,False,False,False,727.81
+VN1307,vios-g,2011,312617,Tỉnh miền Nam,Kém,True,True,False,False,118.76
+VN1320,morning-at,2021,50339,TP. Hồ Chí Minh,Tốt,True,False,False,False,339.73
+VN1325,city-rs,2021,116582,TP. Hồ Chí Minh,Khá,False,True,False,False,376.87
+VN1332,vios-g,2019,110666,TP. Hồ Chí Minh,Khá,False,False,False,False,334.32
+VN1339,vios-g,2020,146241,Đà Nẵng,Khá,False,True,False,False,292.27
+VN1345,accent-at,2017,187629,Tỉnh miền Bắc,Kém,False,True,False,False,163.23
+VN1346,city-rs,2020,79905,TP. Hồ Chí Minh,Tốt,True,False,False,False,404.15
+VN1347,cx5-pre,2024,22418,TP. Hồ Chí Minh,Khá,False,False,False,False,647.10
+VN1351,vios-g,2021,50897,Tỉnh miền Nam,Trung bình,False,False,False,False,368.57
+VN1358,cx5-pre,2020,75049,TP. Hồ Chí Minh,Trung bình,False,False,False,False,540.18
+VN1372,cx5-deluxe,2025,17293,Hà Nội,Tốt,True,False,False,False,665.11
+VN1379,vios-g,2025,10737,Đà Nẵng,Tốt,False,False,False,False,442.06
+VN1381,vios-e,2019,174354,Tỉnh miền Bắc,Trung bình,True,True,False,True,174.11
+VN1382,ranger-xls,2020,46634,TP. Hồ Chí Minh,Khá,False,False,False,False,474.07
+VN1383,fortuner-28,2024,12477,TP. Hồ Chí Minh,Tốt,False,False,False,False,1110.78
+VN1389,accent-top,2016,135521,Tỉnh miền Bắc,Trung bình,False,False,False,False,249.84
+VN1411,city-l,2016,221069,Hà Nội,Kém,False,True,False,False,192.51
+VN1414,tucson-turbo,2023,34690,Đà Nẵng,Tốt,True,False,False,False,740.88
+VN1418,accent-top,2014,288665,TP. Hồ Chí Minh,Kém,False,True,False,False,160.08
+VN1423,tucson-20,2023,86428,Tỉnh miền Bắc,Tốt,False,True,False,False,565.91
+VN1437,accent-at,2018,102428,Hà Nội,Kém,False,False,False,False,211.54
+VN1438,city-l,2017,114346,TP. Hồ Chí Minh,Khá,True,False,False,False,353.21
+VN1441,city-rs,2014,150076,Tỉnh miền Bắc,Kém,False,False,True,False,173.88
+VN1443,i10-base,2022,51269,Đà Nẵng,Khá,False,False,False,False,257.87
+VN1446,city-rs,2019,98823,Tỉnh miền Bắc,Tốt,False,False,False,False,405.10
+VN1451,i10-base,2021,60298,Hà Nội,Tốt,False,False,False,False,298.80
+VN1453,tucson-20,2016,157701,Hà Nội,Khá,False,False,False,False,421.72
+VN1454,vios-e,2023,68493,TP. Hồ Chí Minh,Tốt,True,True,False,False,391.04
+VN1460,vios-e,2021,76945,Tỉnh miền Nam,Khá,False,False,False,False,341.70
+VN1461,morning-x,2016,110314,Hà Nội,Trung bình,False,False,False,False,227.26
+VN1463,fortuner-28,2025,9837,TP. Hồ Chí Minh,Khá,True,False,False,False,1253.68
+VN1480,accent-top,2018,100761,Hà Nội,Trung bình,False,False,False,False,360.08
+VN1485,seltos-lux,2023,34989,Tỉnh miền Bắc,Tốt,False,False,False,False,591.30
+VN1487,i10-base,2017,131041,Hà Nội,Trung bình,True,False,False,False,178.20
+VN1492,accent-at,2021,57685,Tỉnh miền Nam,Tốt,True,False,False,False,397.47
+VN1494,seltos-lux,2025,7713,TP. Hồ Chí Minh,Tốt,True,False,False,False,602.02
+VN1498,cross-hev,2022,93557,TP. Hồ Chí Minh,Tốt,True,True,False,False,618.59
+VN1500,xpander-pre,2024,34835,Hà Nội,Khá,False,False,False,False,534.14
+VN1507,i10-base,2018,87345,Tỉnh miền Bắc,Khá,True,False,False,False,225.52
+VN1522,cx5-pre,2017,139207,Hà Nội,Trung bình,False,False,False,False,454.38
+VN1528,fortuner-28,2016,199455,Hà Nội,Kém,True,True,False,False,467.30
+VN1537,morning-at,2015,174294,Hà Nội,Khá,False,False,False,False,158.92
+VN1540,vios-g,2012,206629,TP. Hồ Chí Minh,Kém,False,False,False,False,183.10
+VN1547,cx5-deluxe,2019,86961,Hà Nội,Khá,True,False,False,False,494.26
+VN1549,accent-top,2023,65420,Đà Nẵng,Trung bình,False,True,False,False,371.19
+VN1551,k3-turbo,2023,89864,TP. Hồ Chí Minh,Khá,True,True,False,False,428.08
+VN1553,vios-g,2017,190668,TP. Hồ Chí Minh,Trung bình,True,True,False,False,237.40
+VN1554,accent-top,2019,92636,Hà Nội,Tốt,False,False,False,False,349.73
+VN1556,accent-top,2024,34882,Tỉnh miền Bắc,Tốt,True,False,False,False,460.47
+VN1560,m3-lux,2018,175755,Tỉnh miền Bắc,Trung bình,False,True,False,False,267.83
+VN1562,morning-at,2024,67001,Đà Nẵng,Khá,False,True,False,False,261.72
+VN1567,cross-v,2023,69676,Đà Nẵng,Khá,True,False,False,False,579.48
+VN1580,ranger-wt,2017,119599,Tỉnh miền Bắc,Khá,False,False,False,False,542.69
+VN1581,civic-rs,2021,66199,TP. Hồ Chí Minh,Tốt,False,False,False,False,621.09
+VN1582,accent-at,2019,131692,Đà Nẵng,Khá,True,False,False,False,282.95
+VN1584,ranger-xls,2018,118883,TP. Hồ Chí Minh,Khá,True,False,False,False,386.12
+VN1595,vios-e,2021,72719,Hà Nội,Khá,True,False,False,False,373.97
+VN1600,xpander-at,2024,34785,Hà Nội,Tốt,False,False,False,False,528.43
+VN1601,city-l,2019,98547,Hà Nội,Trung bình,False,False,False,False,340.70
+VN1602,cx5-deluxe,2021,62791,TP. Hồ Chí Minh,Tốt,True,False,False,False,638.52
+VN1603,cross-hev,2024,44886,TP. Hồ Chí Minh,Trung bình,False,False,False,False,709.31
+VN1613,ranger-xls,2022,49726,TP. Hồ Chí Minh,Trung bình,True,False,False,False,504.69
+VN1617,i10-base,2019,73252,TP. Hồ Chí Minh,Khá,True,False,False,False,272.15
+VN1618,cross-v,2021,62338,Hà Nội,Tốt,True,False,False,False,626.71
+VN1622,k3-lux,2023,70746,TP. Hồ Chí Minh,Khá,True,False,False,False,515.73
+VN1629,vios-g,2025,9116,Hà Nội,Khá,True,False,True,False,387.37
+VN1634,morning-x,2021,70492,Hà Nội,Khá,True,False,False,False,313.82
+VN1637,accent-top,2023,40377,Hà Nội,Tốt,True,False,False,False,496.76
+VN1639,city-l,2018,88182,Hà Nội,Tốt,True,False,False,False,389.26
+VN1658,vios-g,2016,136622,Tỉnh miền Bắc,Khá,True,False,False,False,285.69
+VN1659,morning-x,2021,57236,Tỉnh miền Bắc,Tốt,False,False,False,False,318.48
+VN1661,m3-pre,2019,85598,Tỉnh miền Bắc,Khá,True,False,False,False,448.08
+VN1667,crv-l,2019,89704,Hà Nội,Khá,True,False,False,False,907.62
+VN1681,vios-e,2021,78717,Hà Nội,Tốt,False,False,False,False,371.74
+VN1690,civic-rs,2023,74576,TP. Hồ Chí Minh,Khá,True,True,False,False,607.23
+VN1692,crv-g,2014,133786,TP. Hồ Chí Minh,Khá,True,False,False,False,570.27
+VN1697,accent-at,2018,183112,Tỉnh miền Bắc,Khá,False,True,False,False,233.11
+VN1700,xpander-pre,2026,5273,Hà Nội,Khá,True,True,False,False,559.69
+VN1703,tucson-20,2024,37464,Tỉnh miền Nam,Tốt,True,False,False,False,719.29
+VN1704,accent-at,2016,156321,Tỉnh miền Bắc,Trung bình,False,False,False,False,210.85
+VN1708,xpander-pre,2023,84242,Hà Nội,Tốt,True,True,False,False,490.92
+VN1712,i10-at,2017,120090,Hà Nội,Trung bình,False,False,False,False,214.85
+VN1717,accent-top,2022,65497,Hà Nội,Tốt,True,False,False,False,466.20
+VN1719,vios-e,2023,44670,Tỉnh miền Bắc,Trung bình,False,False,False,True,266.16
+VN1722,m3-lux,2020,124064,Tỉnh miền Bắc,Khá,False,False,False,False,382.26
+VN1724,i10-base,2015,127877,Tỉnh miền Bắc,Khá,False,False,False,False,203.70
+VN1728,civic-rs,2020,76247,TP. Hồ Chí Minh,Khá,False,False,False,False,610.74
+VN1734,seltos-lux,2021,72772,Hà Nội,Tốt,True,False,False,False,543.45
+VN1735,civic-rs,2021,100338,Hà Nội,Tốt,True,False,False,False,713.96
+VN1738,vios-e,2015,145055,Đà Nẵng,Khá,True,False,False,False,268.59
+VN1743,cx5-deluxe,2025,28726,TP. Hồ Chí Minh,Tốt,True,False,False,False,790.05
+VN1746,vios-e,2022,97848,Tỉnh miền Bắc,Tốt,False,True,False,False,306.70
+VN1750,vios-g,2013,145934,TP. Hồ Chí Minh,Trung bình,True,False,False,False,276.78
+VN1752,xpander-pre,2023,48216,TP. Hồ Chí Minh,Tốt,True,False,False,False,506.50
+VN1755,accent-top,2019,84206,Đà Nẵng,Trung bình,False,False,False,False,317.29
+VN1757,accent-top,2019,87378,Tỉnh miền Nam,Tốt,False,False,False,False,394.71
+VN1774,morning-at,2025,13896,TP. Hồ Chí Minh,Tốt,False,False,False,False,400.80
+VN1777,vios-e,2020,54966,Đà Nẵng,Trung bình,True,False,False,True,253.25
+VN1787,cross-hev,2023,72300,Hà Nội,Khá,False,False,False,False,646.56
+VN1788,m3-pre,2015,129508,TP. Hồ Chí Minh,Trung bình,False,False,False,False,349.81
+VN1796,civic-g,2020,70067,Hà Nội,Tốt,True,False,False,False,604.40
+VN1803,accent-at,2020,129574,Đà Nẵng,Khá,False,True,False,False,271.21
+VN1804,accent-at,2019,50798,TP. Hồ Chí Minh,Khá,False,False,False,False,409.11
+VN1807,fortuner-28,2021,75862,Tỉnh miền Bắc,Tốt,False,False,False,False,974.02
+VN1808,seltos-pre,2021,132982,Tỉnh miền Bắc,Trung bình,True,True,False,False,370.45
+VN1810,m3-lux,2018,105635,Tỉnh miền Bắc,Khá,False,False,False,False,417.26
+VN1812,fortuner-24,2021,39665,TP. Hồ Chí Minh,Tốt,True,False,False,False,883.15
+VN1815,civic-rs,2016,141640,TP. Hồ Chí Minh,Khá,True,False,True,False,401.49
+VN1817,accent-at,2019,55639,Tỉnh miền Bắc,Khá,False,False,False,False,274.31
+VN1822,civic-rs,2021,73214,Tỉnh miền Bắc,Khá,True,False,False,False,613.57
+VN1826,city-l,2021,97789,Tỉnh miền Bắc,Trung bình,True,False,False,False,318.13
+VN1830,xpander-at,2025,29315,Hà Nội,Tốt,False,True,False,False,464.20
+VN1841,civic-g,2022,43184,Đà Nẵng,Trung bình,False,False,False,True,478.36
+VN1861,city-l,2017,205158,Tỉnh miền Nam,Kém,False,True,True,False,144.11
+VN1865,vios-g,2019,114949,Hà Nội,Khá,True,False,False,False,382.02
+VN1866,vios-e,2019,78883,Hà Nội,Trung bình,False,False,False,False,290.57
+VN1869,i10-base,2016,110196,TP. Hồ Chí Minh,Khá,False,False,False,False,207.82
+VN1878,crv-g,2020,124009,Tỉnh miền Nam,Trung bình,False,True,False,False,515.61
+VN1883,cx5-pre,2021,65764,Hà Nội,Khá,False,False,False,False,583.74
+VN1888,fortuner-28,2018,122849,Hà Nội,Khá,False,False,False,False,742.54
+VN1889,vios-g,2014,156124,TP. Hồ Chí Minh,Kém,False,False,True,False,164.95
+VN1895,cx5-deluxe,2019,67254,Tỉnh miền Bắc,Khá,False,False,False,False,494.84
+VN1896,accent-at,2021,83083,Tỉnh miền Bắc,Tốt,True,False,False,False,369.09
+VN1903,seltos-lux,2024,25794,Hà Nội,Khá,False,False,False,False,590.09
+VN1913,m3-pre,2015,156282,TP. Hồ Chí Minh,Khá,False,False,False,False,372.14
+VN1914,accent-top,2021,111256,Hà Nội,Tốt,False,False,False,False,325.31
+VN1923,city-l,2022,68467,TP. Hồ Chí Minh,Khá,True,False,False,False,424.90
+VN1927,accent-top,2018,142539,TP. Hồ Chí Minh,Khá,False,True,False,False,289.48
+VN1928,tucson-20,2022,78891,Hà Nội,Tốt,True,False,False,False,662.38
+VN1933,civic-g,2020,94967,Hà Nội,Tốt,True,False,False,False,575.54
+VN1936,vios-g,2025,19437,Tỉnh miền Bắc,Tốt,True,False,False,False,429.31
+VN1938,city-rs,2020,54096,Hà Nội,Khá,False,False,False,False,426.01
+VN1942,vios-g,2015,142974,Tỉnh miền Bắc,Khá,False,False,False,False,279.41
+VN1945,tucson-20,2022,45620,Hà Nội,Khá,False,False,False,False,720.30
+VN1946,i10-at,2021,97568,Hà Nội,Khá,True,True,False,False,277.27
+VN1949,i10-base,2022,76522,TP. Hồ Chí Minh,Tốt,True,False,False,False,275.60
+VN1955,accent-top,2021,74180,Hà Nội,Khá,False,False,True,False,307.17
+VN1964,city-rs,2024,61796,Hà Nội,Tốt,False,True,False,False,486.58
+VN1967,vios-e,2014,144843,TP. Hồ Chí Minh,Kém,False,False,True,False,171.73
+VN1968,vios-g,2025,33566,Đà Nẵng,Tốt,True,False,False,False,525.19
+VN1975,city-rs,2022,38134,Tỉnh miền Nam,Khá,True,False,False,False,437.74
+VN1979,civic-rs,2023,38768,Hà Nội,Khá,True,False,False,False,652.33
+VN1983,city-rs,2022,44966,Đà Nẵng,Tốt,True,False,False,False,513.12
+VN1985,accent-top,2015,151467,TP. Hồ Chí Minh,Khá,False,False,False,False,282.52
+VN1986,vios-e,2020,74105,TP. Hồ Chí Minh,Trung bình,False,False,False,False,316.19
+VN1989,vios-e,2013,203022,TP. Hồ Chí Minh,Kém,False,False,False,False,187.47
+VN1998,city-rs,2024,37107,Tỉnh miền Bắc,Tốt,True,False,False,False,476.18
+VN2008,cross-v,2022,54204,Hà Nội,Tốt,False,False,False,False,700.69
+VN2015,morning-x,2016,143626,Tỉnh miền Nam,Tốt,True,False,False,False,247.29
+VN2026,m3-pre,2018,124537,Tỉnh miền Nam,Khá,False,False,False,False,369.53
+VN2040,accent-at,2015,108069,Hà Nội,Khá,True,False,False,False,284.41
+VN2048,vios-e,2020,139167,TP. Hồ Chí Minh,Kém,True,True,False,True,192.76
+VN2052,cx5-pre,2016,134549,Tỉnh miền Nam,Trung bình,False,False,False,False,425.80
+VN2059,fortuner-28,2022,64142,TP. Hồ Chí Minh,Khá,False,False,False,False,933.45
+VN2061,crv-l,2024,38725,Hà Nội,Trung bình,True,False,True,False,757.28
+VN2066,ranger-wt,2019,91540,Tỉnh miền Bắc,Trung bình,False,False,False,False,551.22
+VN2071,cross-hev,2021,85004,TP. Hồ Chí Minh,Khá,True,False,False,True,465.18
+VN2075,xpander-at,2020,61642,TP. Hồ Chí Minh,Trung bình,True,False,False,False,414.92
+VN2078,k3-lux,2023,49768,Tỉnh miền Nam,Khá,False,False,False,False,480.97
+VN2079,i10-base,2019,107273,TP. Hồ Chí Minh,Khá,True,False,False,False,245.93
+VN2081,vios-e,2020,64218,TP. Hồ Chí Minh,Khá,True,False,False,False,339.43
+VN2083,city-l,2022,32077,TP. Hồ Chí Minh,Tốt,True,False,False,False,474.96
+VN2085,tucson-20,2015,132450,TP. Hồ Chí Minh,Trung bình,False,False,False,False,399.99
+VN2086,tucson-turbo,2019,104010,Hà Nội,Khá,False,False,False,False,660.71
+VN2090,i10-base,2019,103461,Hà Nội,Trung bình,False,False,True,False,151.90
+VN2102,morning-x,2021,108879,Tỉnh miền Bắc,Trung bình,False,True,False,False,232.24
+VN2110,vios-e,2019,98519,Đà Nẵng,Khá,True,False,False,False,328.11
+VN2113,city-rs,2021,139063,Tỉnh miền Bắc,Khá,True,True,False,False,319.08
+VN2117,seltos-lux,2022,56318,Tỉnh miền Nam,Tốt,False,False,False,False,488.54
+VN2119,ranger-xls,2020,71390,Tỉnh miền Bắc,Khá,True,False,False,False,456.26
+VN2127,seltos-pre,2022,68820,Hà Nội,Tốt,True,False,False,False,557.54
+VN2133,fortuner-24,2014,309866,Hà Nội,Kém,False,True,False,False,283.86
+VN2138,cx5-pre,2022,54804,Hà Nội,Tốt,True,False,False,False,656.38
+VN2145,morning-at,2018,77612,Hà Nội,Khá,False,False,False,False,274.93
+VN2158,i10-base,2024,42203,Tỉnh miền Bắc,Tốt,False,False,False,False,304.33
+VN2167,vios-g,2018,138299,Hà Nội,Trung bình,False,False,False,False,273.42
+VN2177,cross-v,2026,4634,Tỉnh miền Bắc,Tốt,False,False,False,False,816.71
+VN2180,crv-l,2014,132244,Tỉnh miền Nam,Kém,False,False,False,False,538.75
+VN2189,i10-at,2021,82736,Tỉnh miền Nam,Tốt,True,False,False,False,287.34
+VN2200,vios-g,2023,45001,Hà Nội,Tốt,True,False,False,False,453.97
+VN2201,morning-x,2017,162168,Tỉnh miền Bắc,Khá,True,False,False,False,226.67
+VN2204,cx5-pre,2022,34971,Tỉnh miền Nam,Khá,True,False,False,False,613.56
+VN2207,seltos-lux,2022,71563,Đà Nẵng,Tốt,True,False,False,False,511.25
+VN2208,cross-v,2022,68347,Tỉnh miền Bắc,Tốt,True,False,False,False,601.60
+VN2209,vios-g,2016,149332,Tỉnh miền Bắc,Trung bình,False,False,False,False,210.67
+VN2213,crv-g,2021,76225,Đà Nẵng,Tốt,False,False,False,False,679.52
+VN2225,cross-v,2021,69742,Hà Nội,Khá,True,False,False,False,627.76
+VN2226,accent-at,2015,110190,Tỉnh miền Nam,Khá,True,False,False,False,269.47
+VN2230,fortuner-28,2018,168717,TP. Hồ Chí Minh,Kém,False,True,False,False,519.77
+VN2231,xpander-pre,2021,143667,Hà Nội,Kém,True,True,False,False,306.39
+VN2232,m3-lux,2020,95826,Tỉnh miền Nam,Tốt,False,False,False,False,396.60
+VN2236,xpander-at,2022,54506,Tỉnh miền Nam,Khá,True,False,False,False,465.05
+VN2242,ranger-xls,2023,42055,Tỉnh miền Bắc,Khá,True,False,False,False,586.83
+VN2251,cross-v,2023,40208,Tỉnh miền Nam,Tốt,True,False,False,False,688.17
+VN2256,xpander-pre,2021,76432,Hà Nội,Tốt,True,False,False,False,517.30
+VN2258,i10-at,2022,65251,Hà Nội,Tốt,True,False,False,False,318.84
+VN2259,morning-x,2024,47061,Tỉnh miền Bắc,Tốt,True,False,False,False,371.27
+VN2267,m3-lux,2015,166423,TP. Hồ Chí Minh,Khá,False,False,False,False,328.04
+VN2269,i10-at,2020,53904,Đà Nẵng,Tốt,False,False,False,False,294.27
+VN2271,i10-base,2018,108800,Tỉnh miền Nam,Kém,True,False,False,True,126.70
+VN2274,crv-g,2022,56594,Hà Nội,Tốt,True,False,False,False,875.68
+VN2277,k3-lux,2014,104794,Tỉnh miền Nam,Trung bình,True,False,False,False,288.52
+VN2283,accent-at,2022,58285,Tỉnh miền Nam,Khá,True,False,False,False,332.31
+VN2285,m3-pre,2017,96774,Hà Nội,Khá,False,False,False,False,446.12
+VN2287,cx5-deluxe,2024,26674,Hà Nội,Khá,True,False,False,False,677.50
+VN2291,i10-base,2018,116328,Hà Nội,Trung bình,False,False,False,False,206.53
+VN2294,city-l,2024,29990,Hà Nội,Khá,False,False,False,False,495.90
+VN2300,vios-e,2024,50393,Đà Nẵng,Tốt,False,False,False,False,419.19
+VN2301,civic-rs,2021,87714,Hà Nội,Khá,False,False,False,False,658.09
+VN2307,fortuner-24,2017,116055,Tỉnh miền Nam,Kém,False,False,False,False,461.62
+VN2312,xpander-at,2023,44171,Tỉnh miền Nam,Khá,True,False,False,False,478.22
+VN2317,morning-at,2019,79584,Hà Nội,Trung bình,True,False,False,True,197.75
+VN2318,accent-top,2021,63904,Hà Nội,Khá,True,False,False,True,348.65
+VN2320,vios-g,2021,114273,Hà Nội,Khá,True,True,False,True,236.96
+VN2323,seltos-pre,2021,52086,Hà Nội,Tốt,True,False,False,False,570.79
+VN2336,accent-top,2019,122263,Tỉnh miền Bắc,Trung bình,True,False,False,False,279.88
+VN2337,city-l,2021,52004,TP. Hồ Chí Minh,Tốt,True,False,False,False,404.51
+VN2340,tucson-20,2020,70604,Hà Nội,Khá,True,False,False,True,473.45
+VN2356,tucson-20,2023,46726,TP. Hồ Chí Minh,Tốt,True,False,False,False,681.61
+VN2358,cx5-pre,2016,94196,Hà Nội,Khá,False,False,False,False,460.47
+VN2363,ranger-xls,2015,168974,TP. Hồ Chí Minh,Trung bình,False,False,False,False,334.45
+VN2367,cx5-pre,2025,15401,TP. Hồ Chí Minh,Tốt,True,False,False,False,734.34
+VN2370,vios-e,2022,44316,TP. Hồ Chí Minh,Khá,True,False,True,False,338.24
+VN2383,accent-at,2020,81050,Hà Nội,Trung bình,False,False,False,False,339.11
+VN2387,i10-base,2022,45620,Tỉnh miền Nam,Khá,True,False,False,False,257.39
+VN2392,vios-g,2012,168000,Tỉnh miền Nam,Trung bình,False,False,False,False,231.12
+VN2396,accent-at,2025,25472,TP. Hồ Chí Minh,Khá,True,False,False,True,337.17
+VN2401,crv-l,2021,37309,Hà Nội,Trung bình,False,False,False,False,870.38
+VN2403,cx5-deluxe,2020,82632,Hà Nội,Khá,False,False,False,False,502.93
+VN2410,crv-l,2019,74756,Hà Nội,Tốt,True,False,False,False,903.85
+VN2411,xpander-pre,2024,29400,Hà Nội,Tốt,True,False,False,False,594.10
+VN2414,accent-at,2021,56970,TP. Hồ Chí Minh,Tốt,False,False,False,False,357.66
+VN2420,vios-g,2018,93216,TP. Hồ Chí Minh,Tốt,True,False,False,False,349.25
+VN2421,cx5-deluxe,2018,125560,Tỉnh miền Nam,Tốt,True,False,False,False,483.97
+VN2436,crv-g,2019,163584,Hà Nội,Khá,False,True,False,False,543.77
+VN2445,vios-g,2015,145800,TP. Hồ Chí Minh,Trung bình,False,False,False,False,249.05
+VN2449,vios-g,2021,67691,Hà Nội,Tốt,True,False,False,False,441.08
+VN2454,fortuner-24,2018,94260,TP. Hồ Chí Minh,Khá,True,False,False,False,692.00
+VN2456,vios-g,2018,117553,TP. Hồ Chí Minh,Khá,False,False,False,False,324.69
+VN2467,ranger-xls,2017,214000,TP. Hồ Chí Minh,Trung bình,True,True,False,False,337.62
+VN2471,k3-lux,2019,97725,Hà Nội,Khá,False,False,False,False,385.42
+VN2475,ranger-xls,2021,13580,TP. Hồ Chí Minh,Khá,False,False,False,True,447.49
+VN2476,morning-x,2018,100798,Hà Nội,Tốt,False,False,False,False,297.30
+VN2478,xpander-pre,2020,65175,Hà Nội,Khá,True,False,False,False,481.45
+VN2481,vios-e,2020,131919,Tỉnh miền Nam,Kém,False,True,False,True,177.90
+VN2487,xpander-at,2021,63204,Hà Nội,Tốt,True,False,False,False,469.36
+VN2499,crv-l,2024,32764,Hà Nội,Tốt,True,False,False,False,1140.18
+VN2502,ranger-xls,2019,69903,Đà Nẵng,Khá,False,False,False,False,498.58
+VN2509,vios-g,2021,26036,Tỉnh miền Nam,Trung bình,False,False,False,False,400.55
+VN2516,fortuner-24,2018,182607,Tỉnh miền Nam,Trung bình,True,True,False,False,460.32
+VN2530,city-rs,2019,71128,Hà Nội,Khá,True,False,False,False,412.59
+VN2535,city-rs,2017,133070,TP. Hồ Chí Minh,Khá,True,False,False,False,386.86
+VN2542,tucson-20,2020,99317,Tỉnh miền Nam,Tốt,False,False,False,False,541.21
+VN2550,vios-g,2021,72294,Tỉnh miền Nam,Tốt,True,False,False,False,398.25
+VN2551,city-rs,2021,90004,TP. Hồ Chí Minh,Tốt,True,False,False,False,474.88
+VN2553,xpander-at,2020,95221,Tỉnh miền Nam,Khá,True,False,False,False,426.98
+VN2556,city-l,2015,116510,Hà Nội,Trung bình,False,False,False,False,285.11
+VN2573,k3-turbo,2018,124490,Đà Nẵng,Khá,True,False,False,False,447.91
+VN2580,xpander-pre,2023,39372,TP. Hồ Chí Minh,Trung bình,False,False,False,False,501.17
+VN2584,tucson-20,2022,35322,Tỉnh miền Nam,Tốt,True,False,False,False,699.92
+VN2586,xpander-at,2020,53618,TP. Hồ Chí Minh,Tốt,True,False,False,False,475.49
+VN2592,vios-e,2018,132849,Tỉnh miền Nam,Trung bình,False,False,False,False,238.53
+VN2593,cx5-deluxe,2019,125324,Hà Nội,Trung bình,True,False,False,True,359.58
+VN2603,xpander-pre,2023,60945,Tỉnh miền Nam,Khá,True,True,False,False,490.17
+VN2617,vios-e,2024,19372,Tỉnh miền Bắc,Khá,False,False,False,False,432.24
+VN2621,vios-g,2012,173462,Đà Nẵng,Khá,True,False,False,False,237.15
+VN2622,cross-hev,2024,18307,TP. Hồ Chí Minh,Tốt,True,False,False,False,891.20
+VN2624,accent-top,2021,62268,Tỉnh miền Bắc,Khá,True,False,False,False,436.98
+VN2632,cx5-pre,2014,149534,Tỉnh miền Bắc,Khá,False,False,False,False,367.83
+VN2634,k3-turbo,2021,63610,TP. Hồ Chí Minh,Tốt,True,False,False,False,626.68
+VN2638,cross-v,2023,61306,Tỉnh miền Nam,Tốt,True,False,False,False,571.38
+VN2643,seltos-lux,2022,38913,Đà Nẵng,Khá,True,False,False,False,517.33
+VN2649,ranger-wt,2021,75300,TP. Hồ Chí Minh,Tốt,True,False,False,False,720.33
+VN2653,vios-e,2013,129725,Tỉnh miền Bắc,Kém,False,False,False,False,215.44
+VN2660,k3-lux,2022,53103,TP. Hồ Chí Minh,Khá,False,False,False,False,466.00
+VN2669,accent-top,2017,114068,TP. Hồ Chí Minh,Trung bình,True,False,False,False,318.26
+VN2670,morning-at,2021,52629,Tỉnh miền Nam,Tốt,True,False,False,False,311.70
+VN2673,m3-pre,2020,99437,TP. Hồ Chí Minh,Khá,False,False,False,False,434.37
+VN2681,i10-at,2017,157652,TP. Hồ Chí Minh,Khá,True,False,False,False,230.02
+VN2683,vios-e,2022,41272,TP. Hồ Chí Minh,Khá,False,False,False,False,450.67
+VN2685,m3-lux,2022,88570,TP. Hồ Chí Minh,Kém,True,True,True,False,236.36
+VN2694,city-rs,2020,142003,Hà Nội,Kém,False,True,False,False,262.84
+VN2696,vios-e,2021,74704,TP. Hồ Chí Minh,Khá,True,False,False,False,342.82
+VN2697,i10-base,2025,14395,TP. Hồ Chí Minh,Tốt,True,False,False,False,381.92
+VN2704,seltos-lux,2023,44537,Tỉnh miền Bắc,Tốt,True,False,False,False,552.58
+VN2707,seltos-lux,2024,35989,Tỉnh miền Bắc,Tốt,True,False,False,False,594.45
+VN2730,morning-x,2019,92540,TP. Hồ Chí Minh,Khá,True,False,False,False,337.70
+VN2735,vios-g,2018,107754,TP. Hồ Chí Minh,Khá,False,False,False,False,326.04
+VN2737,accent-top,2015,259798,Hà Nội,Trung bình,False,True,False,False,175.20
+VN2739,xpander-at,2020,103167,Tỉnh miền Bắc,Khá,True,False,False,False,356.76
+VN2741,city-rs,2020,72265,TP. Hồ Chí Minh,Tốt,True,False,False,False,436.16
+VN2743,ranger-wt,2018,87650,Hà Nội,Khá,False,False,False,False,626.62
+VN2744,morning-x,2020,93508,TP. Hồ Chí Minh,Khá,False,False,False,False,267.23
+VN2750,ranger-wt,2020,145660,Tỉnh miền Bắc,Kém,True,True,False,False,389.38
+VN2751,m3-pre,2019,77772,TP. Hồ Chí Minh,Khá,False,False,False,False,471.34
+VN2752,city-l,2019,108976,TP. Hồ Chí Minh,Tốt,False,False,False,False,404.30
+VN2753,xpander-pre,2021,64596,TP. Hồ Chí Minh,Khá,False,False,False,False,437.63
+VN2762,ranger-xls,2020,70370,TP. Hồ Chí Minh,Trung bình,False,False,False,False,486.60
+VN2763,cross-hev,2023,39734,Hà Nội,Tốt,False,False,False,False,750.38
+VN2764,cross-v,2023,55420,TP. Hồ Chí Minh,Khá,True,False,False,True,475.97
+VN2765,vios-e,2019,171593,Hà Nội,Trung bình,False,True,False,False,225.63
+VN2775,xpander-pre,2019,93738,TP. Hồ Chí Minh,Khá,False,False,False,False,436.42
+VN2781,tucson-turbo,2023,52770,TP. Hồ Chí Minh,Tốt,True,False,False,False,827.36
+VN2785,i10-base,2015,159730,Hà Nội,Trung bình,False,False,False,False,195.48
+VN2790,vios-g,2019,96571,Hà Nội,Tốt,True,False,False,False,405.46
+VN2794,city-l,2020,136300,Hà Nội,Kém,False,True,False,False,262.07
+VN2796,accent-at,2014,175413,Hà Nội,Trung bình,False,False,False,False,210.55
+VN2800,civic-rs,2019,102115,Tỉnh miền Nam,Tốt,True,False,False,False,589.31
+VN2808,cx5-pre,2021,72733,TP. Hồ Chí Minh,Tốt,False,False,False,False,654.71
+VN2812,seltos-lux,2021,65864,TP. Hồ Chí Minh,Tốt,True,False,False,False,573.30
+VN2817,vios-e,2019,91536,TP. Hồ Chí Minh,Khá,True,False,False,False,380.64
+VN2824,vios-g,2021,65140,Tỉnh miền Nam,Tốt,True,False,False,False,397.11
+VN2833,i10-at,2024,20569,TP. Hồ Chí Minh,Khá,False,False,False,False,378.52
+VN2849,cross-hev,2021,73623,TP. Hồ Chí Minh,Tốt,True,False,False,False,716.36
+VN2851,morning-x,2020,75703,TP. Hồ Chí Minh,Khá,False,False,False,False,322.89
+VN2855,tucson-20,2018,77246,Hà Nội,Trung bình,False,False,False,False,496.77
+VN2857,accent-at,2022,99361,TP. Hồ Chí Minh,Trung bình,False,True,False,True,227.94
+VN2860,morning-at,2023,33821,Hà Nội,Khá,False,False,False,False,327.87
+VN2866,xpander-pre,2020,85906,Tỉnh miền Nam,Khá,False,False,False,False,423.66
+VN2868,i10-base,2022,46629,Hà Nội,Khá,False,False,False,False,255.56
+VN2870,seltos-pre,2021,78487,TP. Hồ Chí Minh,Khá,True,False,False,False,471.40
+VN2875,i10-at,2016,130746,Tỉnh miền Bắc,Khá,False,False,False,False,217.76
+VN2886,fortuner-24,2016,162363,Tỉnh miền Nam,Khá,False,False,False,False,500.64
+VN2887,ranger-wt,2021,74667,Tỉnh miền Bắc,Tốt,False,False,False,False,667.95
+VN2890,xpander-at,2019,72425,Tỉnh miền Nam,Khá,False,False,False,False,397.68
+VN2893,cx5-deluxe,2019,115704,Hà Nội,Khá,False,False,False,False,501.29
+VN2903,xpander-at,2022,63890,TP. Hồ Chí Minh,Trung bình,False,False,False,False,462.21
+VN2904,vios-e,2019,64207,TP. Hồ Chí Minh,Khá,True,False,False,False,399.73
+VN2906,vios-e,2009,252008,TP. Hồ Chí Minh,Trung bình,False,False,False,False,166.10
+VN2909,seltos-pre,2026,3222,Hà Nội,Tốt,True,False,False,False,874.00
+VN2911,vios-g,2018,108857,Tỉnh miền Nam,Khá,False,False,False,False,295.82
+VN2913,vios-g,2017,130008,Tỉnh miền Nam,Kém,False,False,False,False,227.23
+VN2916,accent-at,2022,53168,Tỉnh miền Nam,Tốt,False,False,False,False,382.58
+VN2922,cross-hev,2022,23247,Hà Nội,Tốt,False,False,False,False,719.41
+VN2926,cx5-deluxe,2021,64958,Tỉnh miền Nam,Khá,True,False,False,False,492.54
+VN2938,vios-g,2017,105251,Hà Nội,Trung bình,True,False,False,False,336.05
+VN2940,i10-at,2025,25157,Tỉnh miền Bắc,Khá,False,False,False,False,374.05
+VN2943,ranger-wt,2016,112051,Tỉnh miền Nam,Khá,False,False,False,False,542.17
+VN2944,city-l,2017,213301,Tỉnh miền Bắc,Kém,True,True,False,False,177.55
+VN2945,ranger-xls,2021,65799,Hà Nội,Khá,False,False,False,False,524.29
+VN2949,cx5-deluxe,2020,93069,Hà Nội,Trung bình,True,False,False,False,474.20
+VN2950,i10-at,2020,81579,Tỉnh miền Bắc,Trung bình,False,False,False,False,236.04
+VN2955,vios-g,2023,47152,Hà Nội,Khá,False,False,True,False,273.71
+VN2958,xpander-pre,2020,69586,Tỉnh miền Bắc,Khá,True,False,False,False,511.94
+VN2962,fortuner-28,2014,191207,Đà Nẵng,Kém,False,False,False,False,589.96
+VN2963,accent-top,2015,220791,Hà Nội,Kém,True,True,False,False,188.02
+VN2968,city-l,2024,22947,Hà Nội,Tốt,False,False,False,True,450.64
+VN2976,tucson-20,2023,67397,TP. Hồ Chí Minh,Tốt,True,False,False,False,682.03
+VN2981,cross-hev,2023,47747,Đà Nẵng,Khá,True,False,False,False,699.44
+VN2991,cross-v,2021,96858,Hà Nội,Khá,False,True,False,False,518.19
+VN2993,i10-base,2018,204796,Hà Nội,Kém,True,True,False,False,146.61
